@@ -1,0 +1,1720 @@
+[
+	{
+		"id": "6ec4e2a2-3e39-4300-83bb-ec85f29ce075",
+		"url": "/bas/menu/sup",
+		"icon": "icon-menu-tablet-supplier",
+		"label": "Suppliers",
+		"children": [
+			{
+				"id": "f11b6cb2-09f0-47a3-990b-30feea27a15e",
+				"url": "/sup/supplier_browse",
+				"icon": "icon-menu-tablet-supplier",
+				"label": "Suppliers",
+				"children": [
+					{
+						"id": "e862ce33-7e33-4a94-8453-e6ddf6b73f86",
+						"url": "/sup/supplier_manage?Create",
+						"icon": null,
+						"label": "Create Supplier",
+						"children": []
+					},
+					{
+						"id": "02f72109-65c9-4f7d-b7e7-18dbe0256994",
+						"url": "/sup/supplier_doc_browse",
+						"icon": null,
+						"label": "Credentials",
+						"children": []
+					},
+					{
+						"id": "e704efba-b9d7-48dc-9257-d73a7e1d6313",
+						"url": "/sup/approval_browse",
+						"icon": null,
+						"label": "Qualifications",
+						"children": []
+					},
+					{
+						"id": "217a85ed-7d7a-4b2a-8edf-47fbaff02ce1",
+						"url": "/sup/registration_browse",
+						"icon": null,
+						"label": "Suppliers",
+						"children": []
+					},
+					{
+						"id": "7d520b0c-4a4e-490f-ad1b-9a0e2e73235a",
+						"url": "/sup/supplier_unduplicate",
+						"icon": null,
+						"label": "Cleansing",
+						"children": []
+					},
+					{
+						"id": "bb5c3386-83e5-40cd-bc91-2cc0ca953311",
+						"url": "/sup/mwbe_spend_report_browse",
+						"icon": null,
+						"label": "Diversity Reports",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "af9b8f58-0647-4b23-9116-fee168ba1df2",
+				"url": "/qst/campaign_browse/rfi",
+				"icon": null,
+				"label": "Gather Information",
+				"children": [
+					{
+						"id": "63d06433-b615-41cc-80b4-b74aa5669996",
+						"url": "/qst/evaluation_browse/rfi",
+						"icon": null,
+						"label": "Answers",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "9895a991-65a4-4c6c-a607-7c767f437d1e",
+				"url": "/sup/supplier_perf_center",
+				"icon": null,
+				"label": "Performance Center",
+				"children": [
+					{
+						"id": "4a1f61a2-729f-43fb-909a-270b5e5634f7",
+						"url": "/qst/campaign_browse/perf",
+						"icon": null,
+						"label": "Campaigns",
+						"children": []
+					},
+					{
+						"id": "fbaf03b2-949d-40ee-9524-102d1f2cd086",
+						"url": "/qst/evaluation_browse/perf",
+						"icon": null,
+						"label": "Evaluations",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "433240a7-0b0a-4786-aec7-e5c51696ea01",
+				"url": "/rsk/suppliers_risk_monitoring",
+				"icon": null,
+				"label": "Risk Center",
+				"children": [
+					{
+						"id": "5ec69bf2-b650-4a9d-8e6d-d44a74a11d2c",
+						"url": "/qst/campaign_browse/risk",
+						"icon": null,
+						"label": "Campaigns",
+						"children": []
+					},
+					{
+						"id": "6d128b5f-0e70-4321-b0d7-1f2bca6a388b",
+						"url": "/qst/evaluation_browse/risk",
+						"icon": null,
+						"label": "Assessments",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "3379ff68-d4e6-417c-a820-845d3f5fdfcc",
+				"url": "/dis/dispute_browse",
+				"icon": null,
+				"label": "Exception Management",
+				"children": []
+			},
+			{
+				"id": "709f5334-f105-4d01-aa3c-3d48df436a65",
+				"url": "/prg/plan_browse",
+				"icon": null,
+				"label": "Collaboration Plans",
+				"children": []
+			},
+			{
+				"id": "1c7fdc5e-7990-48e3-b834-57847c338f11",
+				"url": "/sup/mass_mailing_browse",
+				"icon": null,
+				"label": "Mass Mailing",
+				"children": []
+			},
+			{
+				"id": "08a33e69-1c32-4d8f-8ef1-eeaae9852ec2",
+				"url": "/qst/review_analysis",
+				"icon": null,
+				"label": "Supplier Satisfaction",
+				"children": []
+			}
+		]
+	},
+	{
+		"id": "70092eea-8493-489c-8768-5aef64cd591c",
+		"url": "/bas/menu/bpm",
+		"icon": "icon-menu-tablet-sourcing",
+		"label": "Sourcing",
+		"children": [
+			{
+				"id": "e1fab73b-c1e3-434d-a233-d5cf0926abf3",
+				"url": "/bpm/process_browse",
+				"icon": "icon-menu-tablet-sourcing",
+				"label": "Sourcing",
+				"children": [
+					{
+						"id": "15aa9b71-10b5-4d9e-8c07-4ee0edb6f9eb",
+						"url": "/bpm/process_manage?Create",
+						"icon": null,
+						"label": "Create Sourcing Project",
+						"children": []
+					},
+					{
+						"id": "1484d73e-84ea-4df1-9b7f-2cbc537f008c",
+						"url": "/bpm/process_schedule",
+						"icon": null,
+						"label": "Schedules",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "f8834f27-59d5-488b-8ab1-081ab8e9100b",
+				"url": "/auc/auction_browse",
+				"icon": null,
+				"label": "Auctions",
+				"children": [
+					{
+						"id": "25a0214b-5682-48d2-91c6-b03cdec1d578",
+						"url": "/auc/auction_manage?Create",
+						"icon": null,
+						"label": "Create Auction",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "f5bacb70-e893-45af-9f7b-b0c2c6d7d774",
+				"url": "/prj/project_browse",
+				"icon": null,
+				"label": "Programs",
+				"children": []
+			},
+			{
+				"id": "02d2124d-6870-456f-9ef2-9fc1de672209",
+				"url": "/cam/category_browse",
+				"icon": null,
+				"label": "Browse Categories",
+				"children": []
+			},
+			{
+				"id": "813d19fe-bf05-44ef-8c5c-fb4f8403dc7c",
+				"url": "/sav/action_browse",
+				"icon": null,
+				"label": "Saving Actions",
+				"children": [
+					{
+						"id": "7e8fa602-823d-460c-8259-79a73121b4ed",
+						"url": "/sav/strategic_plan_browse",
+						"icon": null,
+						"label": "Strategic Plans",
+						"children": []
+					},
+					{
+						"id": "cfe27baa-c729-4cb0-87ed-0a7b9cd3b469",
+						"url": "/sav/act_opening_rule_browse",
+						"icon": null,
+						"label": "Period Opening Rules",
+						"children": []
+					},
+					{
+						"id": "b29cae54-2cd5-4693-8847-8f64b5feb158",
+						"url": "/sav/objective_browse",
+						"icon": null,
+						"label": "Savings Plan Objectives",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "1e69389c-7503-45b7-9a73-025d6e224adc",
+				"url": "/pdt/product_browse/mdt",
+				"icon": null,
+				"label": "Components",
+				"children": [
+					{
+						"id": "39cf7e2d-4c3e-4e94-8a4a-85f50a3a65a7",
+						"url": "/pdt/product_identity_manage?use_case=mdt",
+						"icon": null,
+						"label": "Create Component",
+						"children": []
+					},
+					{
+						"id": "1bf54e15-cb64-473f-a8f0-ee786e47f334",
+						"url": "/pdt/approved_manufacturer_browse",
+						"icon": null,
+						"label": "Approved Manufacturer List",
+						"children": []
+					},
+					{
+						"id": "c4e4a5e2-2fa9-4259-92db-895ff08335fc",
+						"url": "/pdt/approved_vendor_browse",
+						"icon": null,
+						"label": "Approved Vendors List",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "a9c830b9-8ec2-4868-9429-54f3f0e078e8",
+				"url": "/bpm/bpm_program_browse",
+				"icon": null,
+				"label": "Projected Volumes",
+				"children": []
+			},
+			{
+				"id": "4d35092d-0ca9-4f67-8b9c-9965bb1e3767",
+				"url": "/pdt/bom_item_browse",
+				"icon": null,
+				"label": "Bill of Materials",
+				"children": [
+					{
+						"id": "baf62438-5348-402e-9f7a-660316e847bb",
+						"url": "/pdt/bom_scenario_group_browse",
+						"icon": null,
+						"label": "Scenarios",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "fac1b3ed-4dd3-43c6-a855-acebf4efa28f",
+				"url": "/bpm/price_management_browse",
+				"icon": null,
+				"label": "Price Management",
+				"children": [
+					{
+						"id": "20419fef-1407-4cc5-8f17-a94bfb310d37",
+						"url": "/bpm/process_manage?CreatePM=1",
+						"icon": null,
+						"label": "Create",
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "e6ecf113-8e6e-4fb0-bcfd-8f82cd6f1875",
+		"url": "/bas/menu/pdt",
+		"icon": "icon-menu-tablet-catalog",
+		"label": "Shop",
+		"children": [
+			{
+				"id": "93cff00b-9f2e-4065-b08c-2171bb7ba09c",
+				"url": "/pdt/my_catalog_home",
+				"icon": null,
+				"label": "My Catalog",
+				"children": [
+					{
+						"id": "0780ba6c-bdd2-494b-aeab-cd1198115802",
+						"url": "/pdt/item_browse",
+						"icon": "icon-menu-tablet-catalog",
+						"label": "Items",
+						"children": []
+					},
+					{
+						"id": "355e9299-122c-4334-9622-a4c402267c1d",
+						"url": "/pdt/product_manage?Create",
+						"icon": null,
+						"label": "Create Item",
+						"children": []
+					},
+					{
+						"id": "29573f47-ccd4-4d00-b8e6-c96a8a5afe13",
+						"url": "/pdt/catalog_browse",
+						"icon": null,
+						"label": "Import",
+						"children": []
+					},
+					{
+						"id": "b0c5b3cc-9471-4687-a2e3-83185cc517c4",
+						"url": "/pdt/ext_catalog_browse",
+						"icon": null,
+						"label": "External Catalogs",
+						"children": []
+					},
+					{
+						"id": "2cbae8c0-e7f2-4dac-b68c-9a8fcee902b5",
+						"url": "/pdt/ext_catalog_commodity_weight_browse",
+						"icon": null,
+						"label": "Weight per Category",
+						"children": []
+					},
+					{
+						"id": "e8db587e-9ded-40c2-90c1-ae4608fe2e9c",
+						"url": "/pdt/shopping_list_browse",
+						"icon": null,
+						"label": "My Shopping Lists",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "023468b5-68d8-4c45-8ba2-dea9c6cbb344",
+				"url": "/psp/psp_item_browse",
+				"icon": null,
+				"label": "Browse Profiles",
+				"children": [
+					{
+						"id": "f8562fda-6ced-48d3-934c-355337655f04",
+						"url": "/psp/service_browse",
+						"icon": null,
+						"label": "Services",
+						"children": []
+					},
+					{
+						"id": "5273b5d9-4d75-49ab-8688-ccc34cc91b9f",
+						"url": "/psp/psp_product_browse",
+						"icon": null,
+						"label": "Profiles",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "ab277e05-8341-4b5e-901c-9832ef34bcc1",
+				"url": "/tlg/tool_browse",
+				"icon": null,
+				"label": "Tooling",
+				"children": [
+					{
+						"id": "d06dabd5-8023-4a3e-92f2-6f3ff9c8dffd",
+						"url": "/tlg/tool_manage?Create",
+						"icon": null,
+						"label": "Create",
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "d00b7ef2-ec9f-45e0-bc32-f3ad652134b1",
+		"url": "/bas/menu/req",
+		"icon": "icon-menu-tablet-order",
+		"label": "Procurement",
+		"children": [
+			{
+				"id": "e2c90677-120b-4281-b0e5-13b492bdcccb",
+				"url": "/ord/basket_browse",
+				"icon": "icon-menu-tablet-order",
+				"label": "Procurement",
+				"children": [
+					{
+						"id": "495338f9-4024-4af9-a947-409bc7e635d5",
+						"url": "/ord/basket_manage?Create",
+						"icon": null,
+						"label": "Create",
+						"children": []
+					},
+					{
+						"id": "22add3c4-26c5-494c-9ef3-9f9f36566561",
+						"url": "/ord/basket_item_merge",
+						"icon": null,
+						"label": "Group",
+						"children": []
+					},
+					{
+						"id": "c4de1c2c-759f-43d0-b37e-4ef84cb85207",
+						"url": "/bpm/process_browse/spote_quote",
+						"icon": null,
+						"label": "Browse Quick Quotes",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "e647f225-611f-4e2c-a409-c1d78bfc8585",
+				"url": "/ord/item_browse",
+				"icon": null,
+				"label": "Purchasing Optimization Center",
+				"children": []
+			},
+			{
+				"id": "15d6a125-fe0c-4401-96d2-ec0fb912aba2",
+				"url": "/ord/order_browse",
+				"icon": null,
+				"label": "Purchase Orders",
+				"children": [
+					{
+						"id": "56adf188-b485-40c3-a032-8661c5ac7534",
+						"url": "/ord/order_browse/stock_order",
+						"icon": null,
+						"label": "Browse Stock Orders",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "ac8f28c1-23d9-4a4a-b97f-12e6d9261bea",
+				"url": "/ord/delivery_massive_browse",
+				"icon": null,
+				"label": "Pending Receipts",
+				"children": []
+			},
+			{
+				"id": "29a47547-7ad0-4e69-a152-f1677ccc7ade",
+				"url": "/ord/delivery_browse",
+				"icon": null,
+				"label": "Browse Goods receipts",
+				"children": [
+					{
+						"id": "5af0f05b-a604-4ed2-9a55-248a436c1771",
+						"url": "/ord/delivery_manage?Create",
+						"icon": null,
+						"label": "Create",
+						"children": []
+					},
+					{
+						"id": "a95c7c75-aec6-450d-88c2-07fa72bda76c",
+						"url": "/ord/deliverables_receipt",
+						"icon": null,
+						"label": "Receive Deliverables",
+						"children": []
+					},
+					{
+						"id": "7b5dd635-0bb7-4365-aeb4-f1b21c00b99c",
+						"url": "/ord/timesheet_browse",
+						"icon": null,
+						"label": "Browse Timesheet",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "abe6fe63-8721-4374-a74e-6fe775385b02",
+				"url": "/ord/budget_browse",
+				"icon": null,
+				"label": "Browse Budgets",
+				"children": [
+					{
+						"id": "1fe5d522-0907-4083-a603-6f0a554356ba",
+						"url": "/ord/budget_amount_browse",
+						"icon": null,
+						"label": "Browse Budget Lines",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "64e7ada7-cf9f-4ec5-b0c9-f43ae94b8841",
+				"url": "/fct/forecast_browse",
+				"icon": null,
+				"label": "Materials Forecast",
+				"children": [
+					{
+						"id": "3f2f544a-80b2-4ff4-a0ef-04d5c1a3df8a",
+						"url": "/fct/forecast_manage?Create",
+						"icon": null,
+						"label": "Create Forecast",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "0ca1b004-f14f-4230-a5ad-528b27a1f40d",
+				"url": "/ord/allocation_template_browse",
+				"icon": null,
+				"label": "Browse Allocation Templates",
+				"children": [
+					{
+						"id": "d79e4d13-a7fe-460a-93f4-cc690c9f5315",
+						"url": "/ord/allocation_template_manage",
+						"icon": null,
+						"label": "Manage Allocation Templates",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "c2f4e6ef-78e9-48c1-8ab9-1c9bad52724c",
+				"url": "/ipm/inventory_browse",
+				"icon": null,
+				"label": "Browse Inventory",
+				"children": [
+					{
+						"id": "1ef001ab-809a-4da9-bfbc-65ea37f22eb7",
+						"url": "/ipm/inventory_manage",
+						"icon": null,
+						"label": "Create Inventory",
+						"children": []
+					},
+					{
+						"id": "c36acad9-f099-4f92-b0b7-d3296f04095d",
+						"url": "/ipm/storage_location_browse",
+						"icon": null,
+						"label": "Storage Locations",
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "9a7b3b37-402e-4fac-842a-bdeb80555f32",
+		"url": "/bas/menu/inv",
+		"icon": "icon-menu-tablet-invoice",
+		"label": "Invoicing",
+		"children": [
+			{
+				"id": "e4d95066-e9a3-4a59-a538-0b9a68496678",
+				"url": "/ord/invoice_browse",
+				"icon": "icon-menu-tablet-invoice",
+				"label": "Invoices",
+				"children": [
+					{
+						"id": "6b4fd51a-2ba6-4dac-909a-3884434121ee",
+						"url": "/ord/invoice_manage?invoiceType=INV",
+						"icon": null,
+						"label": "Create Invoice",
+						"children": []
+					},
+					{
+						"id": "11fc4f45-17f6-45ba-b68e-dd87615f3c7c",
+						"url": "/ord/invoice_capture_browse",
+						"icon": null,
+						"label": "Submit a PDF invoice (OCR)",
+						"children": []
+					},
+					{
+						"id": "3a96758b-9b04-415a-b1e0-dc0a400acc5a",
+						"url": "/ord/accrued_expense_line_browse",
+						"icon": null,
+						"label": "Prepaid",
+						"children": []
+					},
+					{
+						"id": "55e5a4e7-dc00-4862-b5ce-cea357364222",
+						"url": "/ord/accrued_invoice_line_browse",
+						"icon": null,
+						"label": "Accruals",
+						"children": []
+					},
+					{
+						"id": "c97fb35a-af04-45db-b837-b8ef5f243ffd",
+						"url": "/ord/due_browse",
+						"icon": null,
+						"label": "Terms",
+						"children": []
+					},
+					{
+						"id": "df595dee-864e-43f4-8c79-a6068bf17338",
+						"url": "/eai/interface_exec_browse/impinv",
+						"icon": null,
+						"label": "Invoices Import Console",
+						"children": []
+					},
+					{
+						"id": "659a9a6f-f5d6-49ed-aa0b-9e867c31480a",
+						"url": "/inv/invoice_data_dictionary_browse",
+						"icon": null,
+						"label": "Invoice Data Dictionary",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "f7c6e854-3eeb-4a0e-b340-57f786f6b19b",
+				"url": "/exp/request_browse",
+				"icon": null,
+				"label": "Travel Requests",
+				"children": [
+					{
+						"id": "a96b5942-7651-44db-9cd7-2bb38259fd2c",
+						"url": "/exp/request_manage",
+						"icon": null,
+						"label": "Create",
+						"children": []
+					},
+					{
+						"id": "6c134506-dbd9-448e-9d52-3ce1c4485944",
+						"url": "/exp/advance_browse",
+						"icon": null,
+						"label": "Cash Advance",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "eb3abe87-2d6a-4b07-871b-a4350ead94cd",
+				"url": "/exp/expense_browse",
+				"icon": "icon-menu-tablet-expense",
+				"label": "Expenses",
+				"children": [
+					{
+						"id": "cd1db525-911e-4b5b-9661-28865ffae401",
+						"url": "/exp/expense_item_waiting_browse",
+						"icon": null,
+						"label": "Pending Expenses",
+						"children": []
+					},
+					{
+						"id": "bd6247ff-3089-4097-96c2-0e4586862490",
+						"url": "/exp/expense_manage",
+						"icon": null,
+						"label": "Create",
+						"children": []
+					},
+					{
+						"id": "92c945bf-16d6-43a1-b39b-5bd9378dd838",
+						"url": "/exp/expense_refused",
+						"icon": null,
+						"label": "Rejected Expenses",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "06dd3c86-5939-45ef-b41d-767a153d4700",
+				"url": "/inv/invoice_data_capture_board",
+				"icon": null,
+				"label": "Invoice Data Capture Administration Board",
+				"children": [
+					{
+						"id": "15b3babf-c246-4273-b17b-072ddd25a86a",
+						"url": "/inv/invoice_data_capture_template_browse",
+						"icon": null,
+						"label": "IDC Templates",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "fbbe03ed-323c-413c-8b97-fb13a5c0f6e9",
+				"url": "/pay/payment_transaction_report_browse",
+				"icon": null,
+				"label": "Payment Transaction Reports",
+				"children": []
+			}
+		]
+	},
+	{
+		"id": "89e9113a-845a-439d-86f1-a5e42337eead",
+		"url": "/bas/menu/pay",
+		"icon": null,
+		"label": "Payment",
+		"children": [
+			{
+				"id": "4fb9c6d9-4eab-43e8-a250-f7695d28e0b1",
+				"url": "/pay/payment_request_browse",
+				"icon": null,
+				"label": "Browse Payment Requests",
+				"children": [
+					{
+						"id": "fdc0e92e-e661-48df-aa74-abb5fc3f9928",
+						"url": "/pay/payment_request_browse?selStatus=ini",
+						"icon": null,
+						"label": "Browse Payment Requests",
+						"children": []
+					},
+					{
+						"id": "ec8b26c4-7635-4c2e-bb4e-9993ac8ee19a",
+						"url": "/pay/payment_request_browse?selStatus=pay",
+						"icon": null,
+						"label": "Browse Payment Requests",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "76ede2c9-b783-46cc-a5d2-d0e03e83287d",
+				"url": "/pay/payment_batch_browse",
+				"icon": null,
+				"label": "Browse Payment Batches",
+				"children": [
+					{
+						"id": "6274431b-9bb3-4c58-ae24-24b0313c45d5",
+						"url": "/pay/payment_batch_browse?selStatus=prg",
+						"icon": null,
+						"label": "Browse Payment Batches",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "a8d29fe7-4eaa-4888-bbd9-fd272f754b7d",
+				"url": "/pay/payment_transaction_browse",
+				"icon": null,
+				"label": "Browse Payment Transactions",
+				"children": []
+			},
+			{
+				"id": "cf995829-bc8f-41c9-a19b-25085fb2344e",
+				"url": "/pay/payment_rules",
+				"icon": null,
+				"label": "Configure Payment Rules",
+				"children": []
+			},
+			{
+				"id": "dfd6e26a-d1ff-4a54-b351-475a7ee284c0",
+				"url": "/pay/house_bank_browse",
+				"icon": null,
+				"label": "Configure House Bank",
+				"children": []
+			}
+		]
+	},
+	{
+		"id": "c44ce451-2ac3-407a-91ed-32a92e9b44e1",
+		"url": "/bas/menu/pbi",
+		"icon": "icon-menu-tablet-reporting",
+		"label": "Analytics",
+		"children": [
+			{
+				"id": "a17d2bf2-be41-4c01-9cff-59afc43063ca",
+				"url": "/pbi/home",
+				"icon": null,
+				"label": "Reporting",
+				"children": []
+			},
+			{
+				"id": "c9812bd0-71f7-46dc-91b8-eba3f40428be",
+				"url": "/pbi/analysis_browse",
+				"icon": "icon-menu-tablet-reporting",
+				"label": "Reporting",
+				"children": [
+					{
+						"id": "46d10acb-c73b-47b1-9e80-4d8f84c58f5d",
+						"url": "/pbi/pbi_view",
+						"icon": null,
+						"label": "Create Analysis",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "1f217247-9446-4e7b-b422-ce0da133b0bc",
+				"url": "/pbi/analysis_browse?is_async_analysis=true",
+				"icon": null,
+				"label": "Reporting",
+				"children": [
+					{
+						"id": "cfa35814-1f02-4de5-a020-24bba2d97b06",
+						"url": "/pbi/pbi_view?is_async_analysis=true",
+						"icon": null,
+						"label": "Create PivotBuilder",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "2fd3e567-5389-4dd6-952c-d1210be073b1",
+				"url": "/pbi/analysis_archive_browse",
+				"icon": null,
+				"label": "Browse Stored Exports",
+				"children": []
+			},
+			{
+				"id": "f38880f4-7add-48a7-9f4d-cd2cdd979f01",
+				"url": "/pbi/analysis_schedule_browse",
+				"icon": null,
+				"label": "Browse Analysis Subscriptions",
+				"children": []
+			},
+			{
+				"id": "e52b3084-74ab-44d8-92f3-167b0d3a792b",
+				"url": "/que/query_browse",
+				"icon": null,
+				"label": "Saved Queries",
+				"children": [
+					{
+						"id": "ca8c0bbb-ad04-4022-a539-193324da8127",
+						"url": "/que/query_running_browse",
+						"icon": null,
+						"label": "Running Queries",
+						"children": []
+					},
+					{
+						"id": "4328be9e-6f0b-4368-9950-550c41d92588",
+						"url": "/que/query_usage_log_browse",
+						"icon": null,
+						"label": "Execution logs",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "72368105-299f-4220-8923-850e080aba48",
+				"url": "/spd/workbench",
+				"icon": null,
+				"label": "Spend workbench",
+				"children": [
+					{
+						"id": "b8936222-12f7-44f6-9a0f-e200f7c5da8c",
+						"url": "/spd/clue_browse",
+						"icon": null,
+						"label": "Clues",
+						"children": []
+					},
+					{
+						"id": "df890331-800c-4543-8d94-0522b264ec42",
+						"url": "/spd/rule_browse",
+						"icon": null,
+						"label": "Classification rules",
+						"children": []
+					},
+					{
+						"id": "9d91754e-5967-496e-b230-9d66fbe413d7",
+						"url": "/ord/order_item_browse_light",
+						"icon": null,
+						"label": "Order lines",
+						"children": []
+					},
+					{
+						"id": "0d21d7c4-5ba2-475d-993d-b74b8de360ab",
+						"url": "/spd/invoice_item_browse_light",
+						"icon": null,
+						"label": "Invoice Lines",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "2f10683a-76f7-486f-b4b3-a6f80cc80b99",
+				"url": "/pbi/indicator_browse",
+				"icon": null,
+				"label": "PBI Indicator",
+				"children": []
+			},
+			{
+				"id": "ced0b60e-d2c2-4b72-8f73-7eb2c91df028",
+				"url": "/pbi/cube_process",
+				"icon": null,
+				"label": "Cube Processing",
+				"children": [
+					{
+						"id": "cae69329-641f-4477-b2d7-40b273f69841",
+						"url": "/pbi/cube_browse",
+						"icon": null,
+						"label": "Browse Cubes",
+						"children": []
+					},
+					{
+						"id": "1ba0593c-816d-46cd-bfa0-4e296104171b",
+						"url": "/pbi/cube_create",
+						"icon": null,
+						"label": "Cube Settings",
+						"children": []
+					},
+					{
+						"id": "89ade91f-d612-4c72-b99d-035c8a2fad0f",
+						"url": "/pbi/dim_generate",
+						"icon": null,
+						"label": "Generate Dimensions",
+						"children": []
+					},
+					{
+						"id": "f38e1153-a3ac-4ebb-aea1-ceab72d3e41f",
+						"url": "/pbi/source_view_browse",
+						"icon": null,
+						"label": "Source View Configurations",
+						"children": []
+					},
+					{
+						"id": "7e9fb969-52b4-4cbd-be97-10f5ba779d9d",
+						"url": "/pbi/measure_calculation_model_browse",
+						"icon": null,
+						"label": "Calculation Model Mapping",
+						"children": []
+					},
+					{
+						"id": "fc824f81-50e8-485e-994d-5492a924b705",
+						"url": "/pbi/standard_analysis_browse",
+						"icon": null,
+						"label": "Apply Standard Analysis",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "89cf5479-09cd-44e5-a85c-64a088c85608",
+				"url": "/pbi/tile_test_execution_browse",
+				"icon": null,
+				"label": "Test Tool",
+				"children": []
+			}
+		]
+	},
+	{
+		"id": "082ae06c-381e-48c7-baab-4f99fda12eb0",
+		"url": "/bas/menu/adm",
+		"icon": "icon-menu-tablet-contact",
+		"label": "Admin",
+		"children": [
+			{
+				"id": "e681f74a-3f17-4d7f-9766-81dce641b2a0",
+				"url": "/usr/login_browse",
+				"icon": "icon-menu-tablet-contact",
+				"label": "User",
+				"children": [
+					{
+						"id": "a4ac4fd7-5fcf-4ea6-8edb-05bd06aba224",
+						"url": "/usr/contact_browse",
+						"icon": null,
+						"label": "Contacts",
+						"children": []
+					},
+					{
+						"id": "85aecb3c-0d38-4ac2-bd65-799334c70777",
+						"url": "/bas/address_browse",
+						"icon": null,
+						"label": "Addresses",
+						"children": []
+					},
+					{
+						"id": "298d674f-4295-4670-a5c7-5aaf8e732899",
+						"url": "/bas/session_browse",
+						"icon": null,
+						"label": "Statistics",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "7208416a-c4f0-4a0c-81e8-e7a94985e82e",
+				"url": "/ctn/content_browse/-/-/-/all",
+				"icon": null,
+				"label": "Documents",
+				"children": []
+			},
+			{
+				"id": "3a1a0d8b-738b-4377-9e15-601cab0aa1a6",
+				"url": "/fil/sign_browse",
+				"icon": null,
+				"label": "Signatures",
+				"children": []
+			},
+			{
+				"id": "6a6ae617-8948-4380-aae5-1aa263de9ccf",
+				"url": "/bas/data_table_browse",
+				"icon": null,
+				"label": "Table Management",
+				"children": [
+					{
+						"id": "8c0a30c9-63d7-400a-adba-72bca25ff502",
+						"url": "/bas/unit_browse/0",
+						"icon": null,
+						"label": "Units",
+						"children": []
+					},
+					{
+						"id": "b30a48b2-58d9-4317-937b-e56510db4733",
+						"url": "/bas/unit_browse/1",
+						"icon": null,
+						"label": "Currency",
+						"children": []
+					},
+					{
+						"id": "e0648295-7c12-44a3-ac97-8c6345b19815",
+						"url": "/bas/currency_conversion",
+						"icon": null,
+						"label": "Currency conversion",
+						"children": []
+					},
+					{
+						"id": "87da923f-b654-46b5-8ffe-1c4798ed744b",
+						"url": "/bas/reassignment_browse",
+						"icon": null,
+						"label": "Reassignments",
+						"children": []
+					},
+					{
+						"id": "d7e7b63d-a4e5-45e8-9fa6-fa8886465b15",
+						"url": "/hlp/link_browse",
+						"icon": null,
+						"label": "Help center Links",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "be6afc60-2291-4c05-b5a5-2fde5bafb09c",
+				"url": "/rfp/cost_driver_menu_index",
+				"icon": null,
+				"label": "Cost Drivers",
+				"children": [
+					{
+						"id": "be7557ce-8382-4bba-b79f-c1cf16c5e7c0",
+						"url": "/rfp/cost_driver_entry_browse",
+						"icon": null,
+						"label": "Hierarchy",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "8cea077e-3023-4aa5-ae73-b26879dd454b",
+				"url": "/bas/index_tools_manage",
+				"icon": null,
+				"label": "Technical Support",
+				"children": [
+					{
+						"id": "62de34df-bece-4f42-bf67-0c8e7b8c8b47",
+						"url": "/job/thread_browse",
+						"icon": null,
+						"label": "Jobs",
+						"children": []
+					},
+					{
+						"id": "48e0a41a-fab3-4993-baa8-3e8405268b48",
+						"url": "/com/notification_browse",
+						"icon": null,
+						"label": "Notifications",
+						"children": []
+					},
+					{
+						"id": "99536538-57e7-4cc5-9ea8-d146381b2a41",
+						"url": "/bas/audit_browse",
+						"icon": null,
+						"label": "Audit Trail",
+						"children": []
+					},
+					{
+						"id": "9935988f-c6da-4db8-b7cb-dc5e5ac2eb51",
+						"url": "/bas/broadcast_browse",
+						"icon": null,
+						"label": "Broadcasts",
+						"children": []
+					},
+					{
+						"id": "5e48ac30-ea42-4ee3-bf1d-c7f9721b964a",
+						"url": "/bas/system_tools",
+						"icon": null,
+						"label": "Maintenance Mode",
+						"children": []
+					},
+					{
+						"id": "6c88cf1b-bd28-408d-bf03-5a5718a8416d",
+						"url": "/job/log_purge",
+						"icon": null,
+						"label": "Logs Purge",
+						"children": []
+					},
+					{
+						"id": "693fbcf6-1027-4812-be9e-ecdd469a6391",
+						"url": "/bas/error_browse",
+						"icon": null,
+						"label": "System Logs ",
+						"children": []
+					},
+					{
+						"id": "0f634d09-c973-4e01-831d-dd29e9bca0a2",
+						"url": "/bas/elasticsearch_manage",
+						"icon": null,
+						"label": "ES Config",
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "cdee3ad0-e8c2-4706-aad2-44d218527c16",
+		"url": "/bas/menu/conf",
+		"icon": "icon-menu-tablet-admin",
+		"label": "Config",
+		"children": [
+			{
+				"id": "478d1326-8ff9-4b01-88c0-b658ba945020",
+				"url": "/bas/index_config_manage",
+				"icon": null,
+				"label": "Konfigurieren",
+				"children": [
+					{
+						"id": "452202bd-e7b4-44c4-b94b-e79fe3549c1b",
+						"url": "/usr/profil_auth",
+						"icon": null,
+						"label": "Profiles",
+						"children": []
+					},
+					{
+						"id": "6318cb62-30b0-47f6-a6cd-a818286bc693",
+						"url": "/ctn/content_type_browse",
+						"icon": null,
+						"label": "Documents",
+						"children": []
+					},
+					{
+						"id": "0a26c8b2-77cc-470c-aa68-41dcf06f7e69",
+						"url": "/bas/anomaly_browse",
+						"icon": null,
+						"label": "Alerts",
+						"children": []
+					},
+					{
+						"id": "ac5239cb-4672-4c82-be75-81fb54d8538e",
+						"url": "/bas/anomaly_test_browse",
+						"icon": null,
+						"label": "Alerts Execution Test",
+						"children": []
+					},
+					{
+						"id": "ad636a4e-8743-43da-a237-6bd4f7d5b4c3",
+						"url": "/bas/page_browse",
+						"icon": null,
+						"label": "Pages",
+						"children": []
+					},
+					{
+						"id": "a306dc4c-7dd8-4bf3-a177-7c86e4454930",
+						"url": "/bas/homepage_browse",
+						"icon": null,
+						"label": "Homepages",
+						"children": []
+					},
+					{
+						"id": "6a1a6195-6185-42ba-88ad-bb4b220ea039",
+						"url": "/pdt/commodity_image_browse",
+						"icon": null,
+						"label": "Commodity Images",
+						"children": []
+					},
+					{
+						"id": "44e8490c-1c90-44f3-b4c0-daf453eb4cbb",
+						"url": "/bas/style_browse",
+						"icon": null,
+						"label": "Skin",
+						"children": []
+					},
+					{
+						"id": "8ee77760-9c0e-4fe1-b562-e7224b347f9a",
+						"url": "/bas/system_browse",
+						"icon": null,
+						"label": "Systems",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "78468e4e-0005-48d7-80cc-943441f65cf5",
+				"url": "/com/notifications_nav_index_browse",
+				"icon": null,
+				"label": "Notifications",
+				"children": [
+					{
+						"id": "f2a1932d-3818-4b11-ae09-1584bc2e3dbc",
+						"url": "/com/notification_point_browse",
+						"icon": null,
+						"label": "Notification points",
+						"children": []
+					},
+					{
+						"id": "b7167f86-3a7c-48af-97e7-c2582f6a2702",
+						"url": "/com/email_digest_manage",
+						"icon": null,
+						"label": "Email digest",
+						"children": []
+					},
+					{
+						"id": "c0843582-52cb-4e7b-b423-d7325b76418f",
+						"url": "/com/notification_category_type_browse",
+						"icon": null,
+						"label": "Category",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "00b42080-718d-4272-8208-2fa1bee946f1",
+				"url": "/wfl/process_browse",
+				"icon": null,
+				"label": "Managing approval processes",
+				"children": [
+					{
+						"id": "de6a75b0-b3a6-453c-bae0-fba5d5994228",
+						"url": "/bas/data_browse/t_wfl_process_x",
+						"icon": null,
+						"label": "Mapping",
+						"children": []
+					},
+					{
+						"id": "279a8b6f-5fde-4e82-8d53-f77dc2e0a03c",
+						"url": "/bas/data_browse/t_buy_threshold",
+						"icon": null,
+						"label": "Thresholds ",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "a64b4392-f696-4f2f-b5bd-e7f6ccebcecc",
+				"url": "/col/conversation_config_browse",
+				"icon": null,
+				"label": "Configure Conversations",
+				"children": []
+			},
+			{
+				"id": "ecb8087b-63bd-4223-b30f-5a781b4e1434",
+				"url": "/iva/skill_browse",
+				"icon": null,
+				"label": "Configure IVA Skills",
+				"children": []
+			},
+			{
+				"id": "dfb1401f-f1dd-4301-a302-2afc730eea73",
+				"url": "/tag/tagging_browse",
+				"icon": null,
+				"label": "Tagging",
+				"children": []
+			},
+			{
+				"id": "17dc8797-7e8f-4f68-a886-3666f4ee1ddc",
+				"url": "/qst/template_browse",
+				"icon": null,
+				"label": "Questionnaire Templates",
+				"children": []
+			},
+			{
+				"id": "f5d916f5-eea6-4d6b-ad6c-50c676e188e5",
+				"url": "/buy/caract_group_browse",
+				"icon": null,
+				"label": "Catalog Characteristics Groups",
+				"children": [
+					{
+						"id": "1101d852-03dc-4fb0-b1bc-c8b1cd2b7665",
+						"url": "/buy/caract_browse/t_pdt_product",
+						"icon": null,
+						"label": "Product Characteristics",
+						"children": []
+					},
+					{
+						"id": "180c0136-e286-4e0b-8120-59b6f336c460",
+						"url": "/buy/caract_browse/t_ord_item",
+						"icon": null,
+						"label": "Order options",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "d6e4ac5d-c9d2-4681-82a5-1849a2a933d5",
+				"url": "/bpm/bpmtype_browse",
+				"icon": null,
+				"label": "Sourcing Project Administration",
+				"children": [
+					{
+						"id": "fde1c729-559a-4df4-a6e0-8a84fbba4899",
+						"url": "/rfp/rfptype_browse",
+						"icon": null,
+						"label": "RFx / Templates Administration",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "656e5318-19a3-46d7-80f8-626f4692eb44",
+				"url": "/ord/allocation_level_manage",
+				"icon": null,
+				"label": "Configure Allocation Levels",
+				"children": []
+			},
+			{
+				"id": "6ca60949-7627-4f38-a07e-177ba4998a8c",
+				"url": "/pay/payment_security",
+				"icon": null,
+				"label": "Configure Payment",
+				"children": []
+			},
+			{
+				"id": "1fdeecad-af9d-4953-9965-720fc6b5d1f2",
+				"url": "/bas/lang_export_browse",
+				"icon": null,
+				"label": "Manage Translations",
+				"children": [
+					{
+						"id": "fbe36828-1fe3-4a24-a748-b38292dae33f",
+						"url": "/bas/lang_import_browse",
+						"icon": null,
+						"label": "Import Translations",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "4b46496c-dbe9-41fc-8a59-79a998bff106",
+				"url": "/snp/snapshot_browse",
+				"icon": null,
+				"label": "Sanaphot ",
+				"children": [
+					{
+						"id": "73915841-a04e-4848-a23a-a982270485a1",
+						"url": "/snp/configuration_context_browse",
+						"icon": null,
+						"label": "Configuration contexts",
+						"children": []
+					},
+					{
+						"id": "2ddb9eed-a6ad-4346-aa2d-77944229be6a",
+						"url": "/snp/snapshot_import",
+						"icon": null,
+						"label": "Import",
+						"children": []
+					},
+					{
+						"id": "672357f4-6e43-4af8-8cab-4d71b80c4a64",
+						"url": "/snp/snapshot_export",
+						"icon": null,
+						"label": "Export",
+						"children": []
+					},
+					{
+						"id": "7b0ce43f-0173-4985-828b-a9383c453159",
+						"url": "/snp/snapshot_browse/package",
+						"icon": null,
+						"label": "Packages",
+						"children": []
+					},
+					{
+						"id": "e0947c98-fab7-4c0c-82db-cad28014560f",
+						"url": "/snp/snapshot_manage/a0b1670e-04b4-e111-bbbc-001d09172d36",
+						"icon": null,
+						"label": "Snapshot Product",
+						"children": []
+					},
+					{
+						"id": "b856a18f-5003-4d3b-bde1-085c2a9d4467",
+						"url": "/snp/snapshot_manage/D14AE560-9C9D-E111-AB34-001D09172D36",
+						"icon": null,
+						"label": "Snapshot Project",
+						"children": []
+					},
+					{
+						"id": "57999b65-7fcb-40d9-a8a2-5be537bcc422",
+						"url": "/snp/snapshot_browse/addon",
+						"icon": null,
+						"label": "Addons",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "e18dec54-1ac7-435e-aaee-141e71eb0737",
+				"url": "/bas/annotation_browse",
+				"icon": null,
+				"label": "Annotation",
+				"children": []
+			}
+		]
+	},
+	{
+		"id": "44d6a222-b02f-498b-92a4-b247afc3abeb",
+		"url": "/bas/menu/etl",
+		"icon": "icon-menu-tablet-admin",
+		"label": "Integration",
+		"children": [
+			{
+				"id": "0e721094-ce43-4ee1-814f-a492350e68c2",
+				"url": "/etl/integration_cockpit",
+				"icon": null,
+				"label": "Integration",
+				"children": []
+			},
+			{
+				"id": "70f36791-893f-4fc7-b827-448869bbb550",
+				"url": "/etl/import_browse",
+				"icon": "icon-menu-tablet-admin",
+				"label": "Integration",
+				"children": []
+			},
+			{
+				"id": "70868165-bd07-47b2-b989-3b4c5e5016fb",
+				"url": "/etl/import_type_browse",
+				"icon": null,
+				"label": "Configure ETL",
+				"children": [
+					{
+						"id": "0dc96d6e-d85c-4096-9379-deedbbe2140d",
+						"url": "/etl/import_file_push",
+						"icon": null,
+						"label": "Files Push",
+						"children": []
+					},
+					{
+						"id": "bb632c9c-58ac-4966-96fe-0debd83412cd",
+						"url": "/etl/retroactive_update_browse",
+						"icon": null,
+						"label": "Retroactive Updates",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "fe4b8fe0-736b-4094-a2a5-da3c265d50f2",
+				"url": "/eai/interface_exec_browse",
+				"icon": null,
+				"label": "EAI Console",
+				"children": [
+					{
+						"id": "48cbba0e-bc16-4f04-b0ad-c74b1c49aeb3",
+						"url": "/eai/interface_exec_browse/erp",
+						"icon": null,
+						"label": "ERP console",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "6f479378-7c83-401b-b5c0-a7f4ed11f49b",
+				"url": "/eai/interface_browse",
+				"icon": null,
+				"label": "Configure EAI",
+				"children": [
+					{
+						"id": "97e06578-4847-4670-87a2-1daaabb2e68d",
+						"url": "/eai/file_sender",
+						"icon": null,
+						"label": "AS2 file sender",
+						"children": []
+					},
+					{
+						"id": "15a7d4eb-6c84-4567-8929-a1fb4eaab5b8",
+						"url": "/eai/token_browse",
+						"icon": null,
+						"label": "Tokens",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "7b7dccdf-d3a3-4dc2-a3e2-fb709dda0945",
+				"url": "/api/api_exec_browse",
+				"icon": null,
+				"label": "API Console",
+				"children": []
+			},
+			{
+				"id": "f7ea901b-f031-421f-9a10-e7112f567d32",
+				"url": "/api/api_browse",
+				"icon": null,
+				"label": "Configure API",
+				"children": []
+			},
+			{
+				"id": "9737e62c-f0a8-4630-b746-02df76a3466f",
+				"url": "/api/api_documentation",
+				"icon": null,
+				"label": "API Documentation",
+				"children": []
+			},
+			{
+				"id": "e60182c6-7d73-4be4-8006-ac455bbe710d",
+				"url": "/usr/oauth_application_browse",
+				"icon": null,
+				"label": "OAuth Applications",
+				"children": []
+			}
+		]
+	},
+	{
+		"id": "2739c05b-96cd-40ab-90b8-de311d827135",
+		"url": "/bas/menu/param",
+		"icon": "icon-menu-tablet-admin",
+		"label": "Settings",
+		"children": [
+			{
+				"id": "d5905adb-3660-4e48-8e50-4a143563ed2a",
+				"url": "/bas/db_cleaner",
+				"icon": null,
+				"label": "Settings",
+				"children": []
+			},
+			{
+				"id": "14bf80a5-01c7-4a8f-96a1-c1bfee5a77ae",
+				"url": "/bas/index_param_manage",
+				"icon": null,
+				"label": "Configuration",
+				"children": [
+					{
+						"id": "958cef6f-2dd4-45b9-8ca0-24885c989042",
+						"url": "/bas/param_browse",
+						"icon": null,
+						"label": "Parameters",
+						"children": []
+					},
+					{
+						"id": "ab3931d9-a260-46a0-95d0-f68b2280a004",
+						"url": "/bas/selector_browse",
+						"icon": null,
+						"label": "Selectors",
+						"children": []
+					},
+					{
+						"id": "917f2dba-731c-4bce-a67a-86ffdb10916e",
+						"url": "/des/custom_field_manage",
+						"icon": null,
+						"label": "Create a Field",
+						"children": []
+					},
+					{
+						"id": "01bed2a7-2f20-4452-9205-8658661dd87b",
+						"url": "/des/custom_table_manage",
+						"icon": null,
+						"label": "Create a Table",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "274ed362-cab1-4950-bd9e-e38427cbdef3",
+				"url": "/bas/feature_browse",
+				"icon": null,
+				"label": "Activable features",
+				"children": []
+			},
+			{
+				"id": "39daae4b-f9da-4494-ac73-ec3a9e1c2ed8",
+				"url": "/bas/lang_add",
+				"icon": null,
+				"label": "Language Management",
+				"children": []
+			},
+			{
+				"id": "58ae07c9-c342-410c-b83d-92d380fa2bce",
+				"url": "/bas/index_system_manage",
+				"icon": null,
+				"label": "System tools",
+				"children": [
+					{
+						"id": "bae3ba1d-636d-4831-bbce-bd7c1053909e",
+						"url": "/bas/auth_extract",
+						"icon": null,
+						"label": "Extract authorizations",
+						"children": []
+					},
+					{
+						"id": "a09ae23a-a9d3-4e29-a7d4-b5c59e12875a",
+						"url": "/bas/cache_manage",
+						"icon": null,
+						"label": "Cache management",
+						"children": []
+					},
+					{
+						"id": "5d6ab9e4-b10c-405a-b27b-a90e0131e9d1",
+						"url": "/bas/circular_reference_extract",
+						"icon": null,
+						"label": "Gestion des références circulaires",
+						"children": []
+					},
+					{
+						"id": "0e4385a9-fd72-4de7-9387-61ad9c7165df",
+						"url": "/bas/layer_check",
+						"icon": null,
+						"label": "Overloaded screens",
+						"children": []
+					},
+					{
+						"id": "0c85deb7-52ae-4337-9a41-b547ca1a3190",
+						"url": "/bas/dbstats",
+						"icon": null,
+						"label": "DB Stats",
+						"children": []
+					},
+					{
+						"id": "1789ec20-b048-4a5f-8a06-952711bd118a",
+						"url": "/usr/saml2_check_response",
+						"icon": null,
+						"label": "Check SAML Response",
+						"children": []
+					},
+					{
+						"id": "2275dae9-0a0c-4249-948e-adf29bc721a4",
+						"url": "/usr/saml2_metadata_sp_export",
+						"icon": null,
+						"label": "Export SAML metadata service provider",
+						"children": []
+					},
+					{
+						"id": "d13bbf65-925e-4ee5-854a-b185c1069dc2",
+						"url": "/bas/file_encoding_check",
+						"icon": null,
+						"label": "File encoding verification",
+						"children": []
+					},
+					{
+						"id": "b87ead03-911f-4471-81ec-62b3048d1ab0",
+						"url": "/bas/csp_browse",
+						"icon": null,
+						"label": "CSP Groups",
+						"children": []
+					},
+					{
+						"id": "a9f57e61-12fb-464e-91ba-5906c5a95838",
+						"url": "/etl/import_file_browse",
+						"icon": null,
+						"label": "Import files migration",
+						"children": []
+					},
+					{
+						"id": "a25e0e51-e15d-4b57-a4bb-17aa065d5580",
+						"url": "/bas/install_check",
+						"icon": null,
+						"label": "Installation check",
+						"children": []
+					},
+					{
+						"id": "32d4ad19-feaf-4452-95d6-914649005429",
+						"url": "/bas/sanity_dashboard",
+						"icon": null,
+						"label": "Sanity Dashboard",
+						"children": []
+					},
+					{
+						"id": "876fe709-a528-4e16-a2e7-9aba6debfed4",
+						"url": "/bas/page_auto_check",
+						"icon": null,
+						"label": "Auto Check",
+						"children": []
+					},
+					{
+						"id": "79cb1783-7cb8-4b82-9e93-b7db670e2554",
+						"url": "/bas/index_manage",
+						"icon": null,
+						"label": "Index Management",
+						"children": []
+					},
+					{
+						"id": "ddae74a2-0535-46cb-a348-ec1123ad63df",
+						"url": "/bas/db_utc_manage",
+						"icon": null,
+						"label": "Hours migration (to UTC)",
+						"children": []
+					},
+					{
+						"id": "e4c0245f-1a4e-4bd5-bc5f-12ab56b9c003",
+						"url": "/bas/db_collate",
+						"icon": null,
+						"label": "Collation change",
+						"children": []
+					},
+					{
+						"id": "a259dbc6-5a31-4302-b5ed-d3bd27cb72a2",
+						"url": "/bas/bandwidth_check",
+						"icon": null,
+						"label": "Bandwith check",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": "52a64b33-3fcf-4c99-b6fc-0f0ef22a5a86",
+				"url": "/job/worker_browse",
+				"icon": null,
+				"label": "Worker Processes",
+				"children": [
+					{
+						"id": "156a019d-540f-4c0d-80f4-4fb0e9149b6f",
+						"url": "/job/queue_browse",
+						"icon": null,
+						"label": "Tasks List",
+						"children": []
+					}
+				]
+			}
+		]
+	}
+]

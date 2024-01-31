@@ -1,0 +1,9 @@
+{
+	"txtErrorCode": "FORECAST_ANO01",
+	"txtErrorLabel": {	
+						"en": "A need must be entered at least for one period", 
+						"fr": "A need must be entered at least for one period"
+					},
+	"selErrorType": "blocking",
+	"title": "Programs"
+}

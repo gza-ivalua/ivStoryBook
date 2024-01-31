@@ -1,0 +1,280 @@
+{
+	"controlType": "HtmlGenericControl",
+	"id": "pageWrapper",
+	"pageTitle": "Programs",
+	"children": [{
+		"controlType": "HtmlGenericControl",
+		"id": "mainContentDiv",
+		"children": [				{
+			"controlType": "PlaceHolder",
+			"id": "phActionBarHeader",
+			"children": [
+				{
+					"isLegacy": false,
+					"url": "bas/action_bar?module=sup&page=supplier_manage",
+					"triggerOf": [],
+					"rules": {},
+					"id": "proxyActionBar",
+					"controlType": "BaseUserControl",
+					"children": [
+						{
+							"id": "proxyActionBar_x",
+							"controlType": "BaseUserControl",
+							"children": [								
+								{									
+									"cssClass": "iv-actionbar",								
+									"inline": true,
+									"inColumn": false,
+									"dicControlToRender": {
+										"0": {											
+											"0": {												
+												"inline": true,
+												"inColumn": false,
+												"dicControlToRender": {
+													"0": {
+														"0": {															
+															"saveUrl": "sup/supplier_manage/1?",
+															"uniqueID": "proxyActionBar:x:_cmdSave",
+															"icon": "fa-save",
+															"enableSave": true,
+															"onClick": "if (!ivApproval.SaveConfirm()) return false;",
+															"clientValidation": true,
+															"excludeRequiredField": false,
+															"type": "submit",
+															"iconAlign": "left",
+															"menuItems": [],
+															"category": "primary",
+															"invisible": false,
+															"pageUrlContainer": "/bas/action_bar",
+															"clientID": "proxyActionBar_x__cmdSave",
+															"id": "_cmdSave",
+															"readOnly": false,
+															"readOnlyRendering": "disabledInput",
+															"controlID": "_cmdSave",
+															"associatedText": "Save",																	
+															"controlType": "ButtonControl"															
+														}
+													}
+												},
+												"frameType": "borderless",																										
+												"clientID": "proxyActionBar_x_plhState",												
+												"readOnlyRendering": "disabledInput",
+												"controlID": "plhState",																									
+												"controlType": "ActionGroupControl",												
+												"id": "plhState"
+											}											
+										}
+									},
+									"frameType": "borderless",									
+									"clientID": "proxyActionBar_x_plhActionBar",
+									"id": "plhActionBar",
+									"controlID": "plhActionBar",									
+									"controlType": "ActionBarControl"
+								}								
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"isLegacy": false,
+			"url": "prj/project_browse?module=prj&page=project_browse",
+			"triggerOf": [],
+			"rules": {},
+			"id": "body",
+			"page": "anomaly_manage",
+			"module": "bas",
+			"objectType": "anomaly",
+			"controlType": "BaseUserControl",
+			"objectId": 1,
+			"children": [
+			{
+				"id": "body_x",
+				"singleLine": true,
+				"controlType": "placeholdercontrol",
+				"children": [
+				{
+					"inline": false,
+					"inColumn": false,
+					"dicControlToRender": {
+						"0": {
+							"0": {													
+								"pageUrl": "/bas/anomaly_manage",
+								"clientID": "body_x_txtErrorCode",							
+								"readOnly": false,					
+								"controlID": "txtErrorCode",
+								"associatedText": "Code",
+								"visible": true,															
+								"controlType": "textboxcontrol",
+								"objectID": "1",
+								"objectType": "toto",
+								"id": "txtErrorCode",
+								"methods": ["InitTxtErrorCode", "AnotherInitTxtErrorCode"]
+							}
+						},
+						"1":{
+							"0": {							
+								"pageUrl": "/bas/anomaly_manage",
+								"translatable": true,
+								"clientID": "body_x_txtErrorLabel",							
+								"readOnly": false,					
+								"controlID": "txtErrorLabel",
+								"associatedText": "Libellé",
+								"visible": true,															
+								"controlType": "textboxcontrol",							
+								"id": "txtErrorLabel"
+							}
+						},
+						"2":{
+							"0": {																	
+								"pageUrl": "/bas/anomaly_manage",
+								"clientID": "body_x_txtErrorCustomLabel",							
+								"readOnly": false,					
+								"controlID": "txtErrorCustomLabel",
+								"associatedText": "Libellé customisé",
+								"visible": true,															
+								"controlType": "textboxcontrol",							
+								"id": "txtErrorCustomLabel"
+							}
+						},
+						"3":{
+							"0": {
+								
+								"pageUrl": "/bas/anomaly_manage",
+								"clientID": "body_x_selErrorType",
+								"id": "selErrorType",
+								"required": true,					
+								"controlID": "selErrorType",
+								"associatedText": "Type d'alerte",
+								"visible": true,	
+								"isLocal": true,															
+								"controlType": "selectorcontrol",
+								"dataSource": [
+									{"pkval": "blocking", "label": "blocking"},
+									{"pkval": "error_type_code", "label": "error type code"}
+								],
+								"dataTextField": "label",
+								"dataValueField": "pkval"						
+							}
+						},
+						"4":{
+							"0": {
+								
+								"pageUrl": "/bas/anomaly_manage",
+								"clientID": "body_x_chErrorAuto",
+								"id": "chErrorAuto",
+								"readOnly": false,					
+								"controlID": "chErrorAuto",
+								"associatedText": "Automatique",
+								"visible": true,	
+								"renderType": "checkbox",														
+								"controlType": "checkboxcontrol",
+								"readOnlyRendering": "plainText"						
+							},
+							"1": {
+									"pageUrl": "/bas/anomaly_manage",
+									"clientID": "body_x_chkErrorWfl",
+									"id": "chkErrorWfl",
+									"readOnly": false,					
+									"controlID": "chkErrorWfl",
+									"associatedText": "Alerte de workflow",
+									"visible": true,	
+									"renderType": "checkbox",														
+									"controlType": "checkboxcontrol",
+									"readOnlyRendering": "plainText"						
+							}
+						},
+						"5":{
+							"0": {								
+								"pageUrl": "/bas/anomaly_manage",
+								"clientID": "body_x_selErrorType_2",
+								"id": "selErrorType_2",
+								"required": true,					
+								"controlID": "selErrorType_2",
+								"associatedText": "Priorité",
+								"visible": true,															
+								"controlType": "selectorcontrol"									
+							}
+						},
+						"6":{
+							"0": {
+								"pageUrl": "/bas/anomaly_manage",
+								"clientID": "body_x_selErrorAutoriz",
+								"id": "selErrorAutoriz",
+								"required": true,					
+								"controlID": "selErrorAutoriz",
+								"associatedText": "Autorisation",
+								"visible": true,															
+								"controlType": "selectorcontrol"
+							}
+						},
+						"7":{
+							"0": {								
+								"pageUrl": "/bas/anomaly_manage",
+								"clientID": "body_x_selErrorOType",
+								"id": "selErrorOType",
+								"required": true,					
+								"controlID": "selErrorOType",
+								"associatedText": "Type d'objet",
+								"visible": true,															
+								"controlType": "selectorcontrol"							
+							}
+						},
+						"8":{
+							"0": {							
+								"pageUrl": "/bas/anomaly_manage",
+								"clientID": "body_x_txtErrorDesc",
+								"id": "txtErrorDesc",										
+								"controlID": "txtErrorDesc",
+								"associatedText": "Description",
+								"visible": true,															
+								"controlType": "textboxcontrol"						
+							}
+						}
+					},
+					"associatedTitle": "Informations générales",
+					"frameType": "everyBorderNoBackground",
+					"saveState": true,
+					"label": "Informations générales",			
+					"pageUrl": "/prj/project_browse",
+					"clientID": "body_x_filterProjectBrowse",
+					"id": "filterProjectBrowse",
+					"readOnlyRendering": "disabledInput",
+					"controlID": "filterProjectBrowse",
+					"associatedText": "Informations générales",			
+					"controlType": "PlaceholderControl"
+				},
+				{
+					"inline": false,
+					"inColumn": false,
+					"dicControlToRender": {
+						"0": {
+							"0": {																							
+								"pageUrl": "/bas/anomaly_manage",
+								"clientID": "body_x_txtReq",
+								"id": "txtReq",										
+								"controlID": "txtReq",
+								"associatedText": "Requete SQL",
+								"visible": true,															
+								"controlType": "textboxcontrol"									
+							}
+						}
+					},
+					"associatedTitle": "Paramètres avancés",
+					"frameType": "everyBorderNoBackground",
+					"saveState": true,
+					"label": "Paramètres avancés",			
+					"pageUrl": "/prj/project_browse",
+					"clientID": "body_x_phcAdvanced",
+					"id": "phcAdvanced",
+					"readOnlyRendering": "disabledInput",
+					"controlID": "phcAdvanced",
+					"associatedText": "Paramètres avancés",			
+					"controlType": "PlaceholderControl"
+				}]
+			}
+			]
+		}]
+	}]
+  }

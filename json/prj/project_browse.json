@@ -1,0 +1,1497 @@
+{
+	"controlType": "HtmlGenericControl",
+	"id": "pageWrapper",
+	"pageTitle": "Programs",
+	"children": [
+		{
+			"controlType": "HtmlGenericControl",
+			"id": "mainContentDiv",
+			"children": [
+				{
+					"controlType": "PlaceHolder",
+					"id": "phActionBarHeader",
+					"children": [
+						{
+							"isLegacy": false,
+							"url": "bas/action_bar?module=prj&page=project_browse",
+							"triggerOf": [],
+							"rules": {},
+							"id": "proxyActionBar",
+							"controlType": "BaseUserControl",
+							"children": [
+								{
+									"id": "proxyActionBar_x",
+									"controlType": "BaseUserControl",
+									"children": [
+										{},
+										{
+											"readOnlyRendering": "disabledInput",
+											"cssClass": "iv-actionbar",
+											"labelAlign": "top",
+											"inline": true,
+											"inColumn": false,
+											"dicControlToRender": {
+												"0": {
+													"0": {
+														"control": {
+															"inline": true,
+															"inColumn": false,
+															"dicControlToRender": {},
+															"frameType": "borderless",
+															"saveState": true,
+															"renderType": "table",
+															"pageUrlContainer": "/bas/action_bar",
+															"clientID": "proxyActionBar_x_plhNavigation",
+															"id": "plhNavigation",
+															"readOnlyRendering": "disabledInput",
+															"controlID": "plhNavigation",
+															"labelAlign": "top",
+															"contextMenu": {
+																"opts": {
+																	"theme": "v8"
+																},
+																"items": []
+															},
+															"hidden": false,
+															"triggerOf": [],
+															"rules": {},
+															"designRules": {},
+															"visible": true,
+															"cssClass": "frame2",
+															"saveStateUrl": "/bas/action_bar",
+															"controlType": "ActionGroupControl"
+														},
+														"id": "plhNavigation"
+													},
+													"1": {
+														"control": {
+															"inline": true,
+															"inColumn": false,
+															"dicControlToRender": {},
+															"frameType": "borderless",
+															"saveState": true,
+															"renderType": "table",
+															"pageUrlContainer": "/bas/action_bar",
+															"clientID": "proxyActionBar_x_plhState",
+															"id": "plhState",
+															"readOnlyRendering": "disabledInput",
+															"controlID": "plhState",
+															"labelAlign": "top",
+															"contextMenu": {
+																"opts": {
+																	"theme": "v8"
+																},
+																"items": []
+															},
+															"hidden": false,
+															"triggerOf": [],
+															"rules": {},
+															"designRules": {},
+															"visible": true,
+															"cssClass": "frame2",
+															"saveStateUrl": "/bas/action_bar",
+															"controlType": "ActionGroupControl"
+														},
+														"id": "plhState"
+													},
+													"2": {
+														"control": {
+															"inline": true,
+															"inColumn": false,
+															"dicControlToRender": {},
+															"frameType": "borderless",
+															"saveState": true,
+															"renderType": "table",
+															"pageUrlContainer": "/bas/action_bar",
+															"clientID": "proxyActionBar_x_plhWorkflow",
+															"id": "plhWorkflow",
+															"readOnlyRendering": "disabledInput",
+															"controlID": "plhWorkflow",
+															"labelAlign": "top",
+															"contextMenu": {
+																"opts": {
+																	"theme": "v8"
+																},
+																"items": []
+															},
+															"hidden": false,
+															"triggerOf": [],
+															"rules": {},
+															"designRules": {},
+															"visible": true,
+															"cssClass": "frame2",
+															"saveStateUrl": "/bas/action_bar",
+															"controlType": "ActionGroupControl"
+														},
+														"id": "plhWorkflow"
+													},
+													"3": {
+														"control": {
+															"inline": true,
+															"inColumn": false,
+															"dicControlToRender": {},
+															"frameType": "borderless",
+															"saveState": true,
+															"renderType": "table",
+															"pageUrlContainer": "/bas/action_bar",
+															"clientID": "proxyActionBar_x__plhcButtons",
+															"id": "_plhcButtons",
+															"readOnlyRendering": "disabledInput",
+															"controlID": "_plhcButtons",
+															"labelAlign": "top",
+															"contextMenu": {
+																"opts": {
+																	"theme": "v8"
+																},
+																"items": []
+															},
+															"hidden": false,
+															"triggerOf": [],
+															"rules": {},
+															"designRules": {},
+															"visible": true,
+															"cssClass": "frame2",
+															"saveStateUrl": "/bas/action_bar",
+															"controlType": "ActionGroupControl"
+														},
+														"id": "_plhcButtons"
+													},
+													"4": {
+														"control": {
+															"inline": true,
+															"inColumn": false,
+															"dicControlToRender": {},
+															"frameType": "borderless",
+															"saveState": true,
+															"renderType": "table",
+															"pageUrlContainer": "/bas/action_bar",
+															"clientID": "proxyActionBar_x_plhOtherActions",
+															"id": "plhOtherActions",
+															"readOnlyRendering": "disabledInput",
+															"controlID": "plhOtherActions",
+															"labelAlign": "top",
+															"contextMenu": {
+																"opts": {
+																	"theme": "v8"
+																},
+																"items": []
+															},
+															"hidden": false,
+															"triggerOf": [],
+															"rules": {},
+															"designRules": {},
+															"visible": true,
+															"cssClass": "frame2",
+															"saveStateUrl": "/bas/action_bar",
+															"controlType": "ActionGroupControl"
+														},
+														"id": "plhOtherActions"
+													}
+												}
+											},
+											"frameType": "borderless",
+											"saveState": true,
+											"renderType": "table",
+											"pageUrlContainer": "/bas/action_bar",
+											"clientID": "proxyActionBar_x_plhActionBar",
+											"id": "plhActionBar",
+											"controlID": "plhActionBar",
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"hidden": false,
+											"triggerOf": [],
+											"rules": {},
+											"designRules": {},
+											"visible": true,
+											"saveStateUrl": "/bas/action_bar",
+											"controlType": "ActionBarControl"
+										},
+										{}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"clientID": "pageMessages",
+					"id": "pageMessages",
+					"readOnly": false,
+					"readOnlyRendering": "disabledInput",
+					"controlID": "pageMessages",
+					"labelAlign": "top",
+					"contextMenu": {
+						"opts": {
+							"theme": "v8"
+						},
+						"items": []
+					},
+					"hidden": false,
+					"triggerOf": [],
+					"rules": {},
+					"designRules": {},
+					"visible": true,
+					"cssClass": "main-messages",
+					"controlType": "PageMessageControl"
+				},
+				{
+					"isLegacy": false,
+					"url": "prj/project_browse?module=prj&page=project_browse",
+					"triggerOf": [],
+					"rules": {},
+					"id": "body",
+					"controlType": "BaseUserControl",
+					"children": [
+						{
+							"id": "body_x",
+							"controlType": "BaseUserControl",
+							"children": [
+								{
+									"inline": false,
+									"inColumn": false,
+									"dicControlToRender": {
+										"0": {
+											"0": {
+												"control": {
+													"step": -1.0,
+													"inputType": "input",
+													"translatable": false,
+													"range": false,
+													"codeMirrorMode": "empty",
+													"compareOperator": "equal",
+													"enabled": true,
+													"autoPostBack": false,
+													"scale": 2,
+													"precision": 16,
+													"dataType": "empty",
+													"enabledValidateRequest": true,
+													"clientValidation": true,
+													"dataTableName": "t_prj_project",
+													"enableHtmlClientValidation": false,
+													"autoSave": false,
+													"beforeSave": [],
+													"onSaving": [],
+													"saved": [],
+													"required": false,
+													"filterTag": "<h3 class=\"tag-label\" data-id=\"@{id}\">Keywords (@{extra_label}) : </h3><ul class=\"tag-summary\" data-id=\"@{id}\"><li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li></ul>",
+													"filterTagValue": "<li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li>",
+													"pageUrl": "/prj/project_browse",
+													"clientID": "body_x_txtQuery",
+													"id": "txtQuery",
+													"readOnly": false,
+													"readOnlyRendering": "disabledInput",
+													"controlID": "txtQuery",
+													"associatedText": "Keywords",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"cssClass": "",
+													"minOperator": "greaterThanEqual",
+													"maxOperator": "lessThanEqual",
+													"ckEditor": {
+														"clientId": "body_x_txtQuery",
+														"enableKeywords": false,
+														"extraPlugins": null,
+														"ckMode": "inline",
+														"stylesSet": null,
+														"toolbarExpanded": false,
+														"hideCKEditorToolbar": false,
+														"hideCKEditorRepeater": false,
+														"toolbar": "'Full'",
+														"lang": "en",
+														"hasAuthCtnClauseEdit": true,
+														"authObjectType": "project",
+														"authObjectId": null,
+														"imgObjectType": "t_prj_project",
+														"imgObjectId": null,
+														"onChange": null,
+														"customConfig": "/buyer_demo_V8_178_D791333_branch/dist/third-party/ckeditor/config.js",
+														"filebrowserImageBrowseUrl": "/buyer_demo_V8_178_D791333_branch/popup.aspx/en/fil/image_editor/project",
+														"filebrowserImageBrowseLinkUrl": "/buyer_demo_V8_178_D791333_branch/popup.aspx/en/fil/image_editor/project",
+														"imagePath": "/buyer_demo_V8_178_D791333_branch/dist/image/",
+														"contentsCss": [
+															"/buyer_demo_V8_178_D791333_branch/dist/third-party/ckeditor/contents.css",
+															"/buyer_demo_V8_178_D791333_branch/dist/css/ivalua.min.css?v=20231005095651",
+															"/buyer_demo_V8_178_D791333_branch/dist/third-party/semantic-ui/semantic.min.css?v=20231005095711"
+														]
+													},
+													"autoSaveUrl": "/prj/project_manage/{0}",
+													"autoSaveObjectId": "",
+													"controlType": "KeyWord"
+												},
+												"id": "txtQuery"
+											},
+											"1": {
+												"control": {
+													"direction": "downward",
+													"type": "multiple",
+													"queryString": "curl=prj/project_browse&cid=selLogin&cot=project&cdesignctx=&tableName=t_usr_login&objectType=login",
+													"ctxVarText": "selectorCode=login",
+													"repeatColumns": 1,
+													"autoPostBack": false,
+													"enableConfirmationBeforeClear": false,
+													"control": {
+														"enableEllipsisButton": true,
+														"moduleName": "usr",
+														"pageName": "login_browse",
+														"url": "/buyer_demo_V8_178_D791333_branch/ajax.aspx/en/usr/login_browse",
+														"popUpUrl": "/buyer_demo_V8_178_D791333_branch/modal.aspx/en/usr/login_browse",
+														"menuClientId": "body_x_selLogin_MenuItem"
+													},
+													"tableName": "t_usr_login",
+													"autoSelect": false,
+													"dataTextField": "label",
+													"defaultFetchOperation": true,
+													"dataValueField": "pkval",
+													"filterCtx": {},
+													"allowExcludedValues": false,
+													"selectorId": "body_x_selLogin",
+													"key": "body_x_selLogin",
+													"showUrlLink": false,
+													"itemGridEnabled": false,
+													"postName": "|selLogin",
+													"selectorType": "autocompletion",
+													"selectorCode": "login",
+													"autocompleteDelay": 200,
+													"autocompleteMinLength": 0,
+													"dataTableName": "t_usr_login_securable",
+													"isLocal": false,
+													"optGroup": {},
+													"dataGroupField": "optgroup_num",
+													"hasOptGroups": false,
+													"dataSource": [],
+													"selectedItems": [],
+													"shortEnd": 0,
+													"closeAfterSelection": false,
+													"filterContext": "null",
+													"shortBegin": 0,
+													"listColumn": "[]",
+													"filterTagMaxItems": 10,
+													"filterTagNotDisplayed": "<div class=\"ui label tag-value tooltip\"><i class=\"fa-ellipsis-h icon\" aria-hidden=\"true\"></i></div><div class=\"ui iv-filter-summary popup\"><span class=\"tag-summary\" data-id=\"@{id}\">@{tooltip}</span></div>",
+													"dataFieldName": "login_name",
+													"autoSave": false,
+													"beforeSave": [],
+													"onSaving": [],
+													"saved": [],
+													"required": false,
+													"filterTag": "<h3 class=\"tag-label\" data-id=\"@{id}\">Contact : </h3><ul class=\"tag-summary\" data-id=\"@{id}\"><li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li></ul>",
+													"filterTagValue": "<li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li>",
+													"pageUrl": "/prj/project_browse",
+													"clientID": "body_x_selLogin",
+													"id": "selLogin",
+													"readOnly": false,
+													"readOnlyRendering": "disabledInput",
+													"controlID": "selLogin",
+													"associatedText": "Contact",
+													"labelAlign": "top",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"cssClass": "selector-control",
+													"autoSaveUrl": "/prj/project_manage/{0}",
+													"autoSaveObjectId": "",
+													"controlType": "SelectorControl"
+												},
+												"id": "selLogin"
+											},
+											"2": {
+												"control": {
+													"direction": "downward",
+													"type": "single",
+													"queryString": "curl=prj/project_browse&cid=ddlStatus&cot=project&cdesignctx=&tableName=t_bas_status&objectType=status_project",
+													"ctxVarText": "selectorCode=status_project",
+													"repeatColumns": 1,
+													"autoPostBack": false,
+													"enableConfirmationBeforeClear": false,
+													"control": {
+														"enableEllipsisButton": true,
+														"moduleName": "bas",
+														"pageName": "ellipsis_browse",
+														"popUpUrl": "/buyer_demo_V8_178_D791333_branch/modal.aspx/en/bas/ellipsis_browse/status_project",
+														"menuClientId": "body_x_ddlStatus_MenuItem"
+													},
+													"tableName": "t_bas_status",
+													"autoSelect": false,
+													"dataTextField": "status_label",
+													"defaultFetchOperation": false,
+													"dataValueField": "status_code",
+													"filterCtx": {},
+													"allowExcludedValues": false,
+													"selectorId": "body_x_ddlStatus",
+													"key": "body_x_ddlStatus",
+													"showUrlLink": false,
+													"itemGridEnabled": false,
+													"postName": "|ddlStatus",
+													"selectorType": "dropdown",
+													"selectorCode": "status_project",
+													"autocompleteDelay": 200,
+													"autocompleteMinLength": 0,
+													"isLocal": true,
+													"optGroup": {},
+													"dataGroupField": "optgroup_num",
+													"hasOptGroups": false,
+													"dataSource": [
+														{
+															"status_code": "prg",
+															"status_label": "Approval in progress",
+															"optgroup_num": null,
+															"complement": null
+														},
+														{
+															"status_code": "val",
+															"status_label": "Approved",
+															"optgroup_num": null,
+															"complement": null
+														},
+														{
+															"status_code": "ini",
+															"status_label": "Draft",
+															"optgroup_num": null,
+															"complement": null
+														},
+														{
+															"status_code": "end",
+															"status_label": "Terminated",
+															"optgroup_num": null,
+															"complement": null
+														}
+													],
+													"shortEnd": 0,
+													"closeAfterSelection": false,
+													"filterContext": "null",
+													"shortBegin": 0,
+													"listColumn": "[]",
+													"filterTagMaxItems": 10,
+													"filterTagNotDisplayed": "<div class=\"ui label tag-value tooltip\"><i class=\"fa-ellipsis-h icon\" aria-hidden=\"true\"></i></div><div class=\"ui iv-filter-summary popup\"><span class=\"tag-summary\" data-id=\"@{id}\">@{tooltip}</span></div>",
+													"dataFieldName": "status_code",
+													"autoSave": false,
+													"beforeSave": [],
+													"onSaving": [],
+													"saved": [],
+													"required": false,
+													"filterTag": "<h3 class=\"tag-label\" data-id=\"@{id}\">Status : </h3><ul class=\"tag-summary\" data-id=\"@{id}\"><li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li></ul>",
+													"filterTagValue": "<li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li>",
+													"pageUrl": "/prj/project_browse",
+													"clientID": "body_x_ddlStatus",
+													"id": "ddlStatus",
+													"readOnly": false,
+													"readOnlyRendering": "disabledInput",
+													"controlID": "ddlStatus",
+													"associatedText": "Status",
+													"labelAlign": "top",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"cssClass": "selector-control",
+													"autoSaveUrl": "/prj/project_manage/{0}",
+													"autoSaveObjectId": "",
+													"controlType": "SelectorControl"
+												},
+												"id": "ddlStatus"
+											},
+											"3": {
+												"control": {
+													"direction": "downward",
+													"type": "multiple",
+													"queryString": "curl=prj/project_browse&cid=ddlType&cot=project&cdesignctx=&tableName=t_prj_type&filtering=prj_project_browse_typeselecting&objectType=project_type",
+													"ctxVarText": "selectorCode=project_type",
+													"repeatColumns": 1,
+													"autoPostBack": false,
+													"enableConfirmationBeforeClear": false,
+													"control": {
+														"enableEllipsisButton": true,
+														"moduleName": "bas",
+														"pageName": "ellipsis_browse",
+														"popUpUrl": "/buyer_demo_V8_178_D791333_branch/modal.aspx/en/bas/ellipsis_browse/project_type",
+														"menuClientId": "body_x_ddlType_MenuItem"
+													},
+													"tableName": "t_prj_type",
+													"autoSelect": false,
+													"dataTextField": "label",
+													"defaultFetchOperation": false,
+													"dataValueField": "pkval",
+													"filterCtx": {},
+													"allowExcludedValues": false,
+													"selectorId": "body_x_ddlType",
+													"key": "body_x_ddlType",
+													"showUrlLink": false,
+													"itemGridEnabled": false,
+													"postName": "|ddlType",
+													"selectorType": "dropdown",
+													"selectorCode": "project_type",
+													"autocompleteDelay": 200,
+													"autocompleteMinLength": 0,
+													"isLocal": true,
+													"optGroup": {},
+													"dataGroupField": "optgroup_num",
+													"hasOptGroups": false,
+													"dataSource": [
+														{
+															"pkval": "CORP",
+															"label": "Corporate",
+															"optgroup_num": null,
+															"complement": null
+														},
+														{
+															"pkval": "PDT",
+															"label": "New product introduction",
+															"optgroup_num": null,
+															"complement": null
+														},
+														{
+															"pkval": "PURCH",
+															"label": "Purchase",
+															"optgroup_num": null,
+															"complement": null
+														}
+													],
+													"shortEnd": 0,
+													"closeAfterSelection": false,
+													"filterContext": "null",
+													"shortBegin": 0,
+													"listColumn": "[]",
+													"filterTagMaxItems": 10,
+													"filterTagNotDisplayed": "<div class=\"ui label tag-value tooltip\"><i class=\"fa-ellipsis-h icon\" aria-hidden=\"true\"></i></div><div class=\"ui iv-filter-summary popup\"><span class=\"tag-summary\" data-id=\"@{id}\">@{tooltip}</span></div>",
+													"dataFieldName": "ptype_code",
+													"autoSave": false,
+													"beforeSave": [],
+													"onSaving": [],
+													"saved": [],
+													"required": false,
+													"filterTag": "<h3 class=\"tag-label\" data-id=\"@{id}\">Types : </h3><ul class=\"tag-summary\" data-id=\"@{id}\"><li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li></ul>",
+													"filterTagValue": "<li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li>",
+													"pageUrl": "/prj/project_browse",
+													"clientID": "body_x_ddlType",
+													"id": "ddlType",
+													"readOnly": false,
+													"readOnlyRendering": "disabledInput",
+													"controlID": "ddlType",
+													"associatedText": "Types",
+													"labelAlign": "top",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"cssClass": "selector-control",
+													"autoSaveUrl": "/prj/project_manage/{0}",
+													"autoSaveObjectId": "",
+													"controlType": "SelectorControl"
+												},
+												"id": "ddlType"
+											},
+											"4": {
+												"control": {
+													"isLegacy": false,
+													"url": "bas/filter_bar?module=prj&page=project_browse",
+													"triggerOf": [],
+													"rules": {},
+													"id": "prxFilterBar",
+													"controlType": "BaseUserControl",
+													"children": [
+														{
+															"id": "body_x_prxFilterBar_x",
+															"controlType": "BaseUserControl",
+															"children": [
+																{
+																	"readOnlyRendering": "disabledInput",
+																	"inline": true,
+																	"inColumn": false,
+																	"dicControlToRender": {
+																		"0": {
+																			"0": {
+																				"control": {
+																					"saveUrl": "prj/project_browse/?",
+																					"uniqueID": "body:x:prxFilterBar:x:cmdSearchBtn",
+																					"icon": "fa-search",
+																					"enableSave": false,
+																					"clientValidation": true,
+																					"excludeRequiredField": false,
+																					"type": "submit",
+																					"iconAlign": "left",
+																					"menuItems": [],
+																					"category": "primary",
+																					"invisible": false,
+																					"pageUrlContainer": "/bas/filter_bar",
+																					"clientID": "body_x_prxFilterBar_x_cmdSearchBtn",
+																					"id": "cmdSearchBtn",
+																					"readOnly": false,
+																					"readOnlyRendering": "disabledInput",
+																					"controlID": "cmdSearchBtn",
+																					"associatedText": "Search",
+																					"contextMenu": {
+																						"opts": {
+																							"theme": "v8"
+																						},
+																						"items": []
+																					},
+																					"hidden": false,
+																					"triggerOf": [],
+																					"rules": {},
+																					"designRules": {},
+																					"visible": true,
+																					"cssClass": "",
+																					"controlType": "ButtonControl"
+																				},
+																				"id": "cmdSearchBtn"
+																			},
+																			"1": {
+																				"control": {
+																					"saveUrl": "prj/project_browse/?",
+																					"uniqueID": "body:x:prxFilterBar:x:cmdRazBtn",
+																					"enableSave": false,
+																					"clientValidation": false,
+																					"excludeRequiredField": false,
+																					"type": "submit",
+																					"iconAlign": "left",
+																					"menuItems": [],
+																					"category": "none",
+																					"invisible": false,
+																					"pageUrlContainer": "/bas/filter_bar",
+																					"clientID": "body_x_prxFilterBar_x_cmdRazBtn",
+																					"id": "cmdRazBtn",
+																					"readOnly": false,
+																					"readOnlyRendering": "disabledInput",
+																					"controlID": "cmdRazBtn",
+																					"associatedText": "Reset",
+																					"contextMenu": {
+																						"opts": {
+																							"theme": "v8"
+																						},
+																						"items": []
+																					},
+																					"hidden": false,
+																					"triggerOf": [],
+																					"rules": {},
+																					"designRules": {},
+																					"visible": true,
+																					"cssClass": "",
+																					"controlType": "ButtonControl"
+																				},
+																				"id": "cmdRazBtn"
+																			}
+																		}
+																	},
+																	"frameType": "borderless",
+																	"saveState": true,
+																	"renderType": "table",
+																	"pageUrlContainer": "/bas/filter_bar",
+																	"clientID": "body_x_prxFilterBar_x_phcFilterBar",
+																	"id": "phcFilterBar",
+																	"controlID": "phcFilterBar",
+																	"labelAlign": "top",
+																	"contextMenu": {
+																		"opts": {
+																			"theme": "v8"
+																		},
+																		"items": []
+																	},
+																	"hidden": false,
+																	"triggerOf": [],
+																	"rules": {},
+																	"designRules": {},
+																	"visible": true,
+																	"cssClass": "iv-filter-bar-td",
+																	"saveStateUrl": "/bas/filter_bar",
+																	"controlType": "PlaceHolderControl"
+																},
+																{}
+															]
+														}
+													]
+												},
+												"id": "prxFilterBar"
+											}
+										},
+										"1": {
+											"0": {
+												"control": {
+													"direction": "downward",
+													"type": "multiple",
+													"queryString": "curl=prj/project_browse&cid=selOrga&cot=project&cdesignctx=&tableName=x_orga_all&objectType=orga",
+													"ctxVarText": "selectorCode=orga",
+													"repeatColumns": 1,
+													"autoPostBack": false,
+													"enableConfirmationBeforeClear": false,
+													"control": {
+														"enableEllipsisButton": true,
+														"moduleName": "org",
+														"pageName": "orga_tree_browse",
+														"url": "/buyer_demo_V8_178_D791333_branch/ajax.aspx/en/org/orga_tree_browse",
+														"popUpUrl": "/buyer_demo_V8_178_D791333_branch/modal.aspx/en/org/orga_tree_browse",
+														"menuClientId": "body_x_selOrga_MenuItem"
+													},
+													"tableName": "x_orga_all",
+													"autoSelect": false,
+													"dataTextField": "label",
+													"defaultFetchOperation": true,
+													"dataValueField": "pkval",
+													"filterCtx": {},
+													"allowExcludedValues": false,
+													"selectorId": "body_x_selOrga",
+													"key": "body_x_selOrga",
+													"showUrlLink": false,
+													"itemGridEnabled": false,
+													"postName": "|selOrga",
+													"selectorType": "autocompletion",
+													"selectorCode": "orga",
+													"autocompleteDelay": 200,
+													"autocompleteMinLength": 0,
+													"dataTableName": "t_prj_project_orga",
+													"isLocal": false,
+													"optGroup": {},
+													"dataGroupField": "optgroup_num",
+													"hasOptGroups": false,
+													"dataSource": [],
+													"selectedItems": [],
+													"shortEnd": 0,
+													"closeAfterSelection": false,
+													"filterContext": "null",
+													"shortBegin": 0,
+													"listColumn": "[]",
+													"filterTagMaxItems": 10,
+													"filterTagNotDisplayed": "<div class=\"ui label tag-value tooltip\"><i class=\"fa-ellipsis-h icon\" aria-hidden=\"true\"></i></div><div class=\"ui iv-filter-summary popup\"><span class=\"tag-summary\" data-id=\"@{id}\">@{tooltip}</span></div>",
+													"autoSave": false,
+													"beforeSave": [],
+													"onSaving": [],
+													"saved": [],
+													"required": false,
+													"filterTag": "<h3 class=\"tag-label\" data-id=\"@{id}\">Organization : </h3><ul class=\"tag-summary\" data-id=\"@{id}\"><li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li></ul>",
+													"filterTagValue": "<li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li>",
+													"pageUrl": "/prj/project_browse",
+													"clientID": "body_x_selOrga",
+													"id": "selOrga",
+													"readOnly": false,
+													"readOnlyRendering": "disabledInput",
+													"controlID": "selOrga",
+													"associatedText": "Organization",
+													"labelAlign": "top",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"cssClass": "selector-control",
+													"autoSaveUrl": "/prj/project_manage/{0}",
+													"autoSaveObjectId": "",
+													"controlType": "SelectorControl"
+												},
+												"id": "selOrga"
+											},
+											"1": {
+												"control": {
+													"direction": "downward",
+													"type": "multiple",
+													"queryString": "curl=prj/project_browse&cid=selFamily&cot=project&cdesignctx=&tableName=x_fam_all&objectType=family",
+													"ctxVarText": "selectorCode=family",
+													"repeatColumns": 1,
+													"autoPostBack": false,
+													"enableConfirmationBeforeClear": false,
+													"control": {
+														"enableEllipsisButton": true,
+														"moduleName": "buy",
+														"pageName": "family_tree_browse",
+														"url": "/buyer_demo_V8_178_D791333_branch/ajax.aspx/en/buy/family_tree_browse",
+														"popUpUrl": "/buyer_demo_V8_178_D791333_branch/modal.aspx/en/buy/family_tree_browse",
+														"menuClientId": "body_x_selFamily_MenuItem"
+													},
+													"tableName": "x_fam_all",
+													"autoSelect": false,
+													"dataTextField": "label",
+													"defaultFetchOperation": true,
+													"dataValueField": "pkval",
+													"filterCtx": {},
+													"allowExcludedValues": false,
+													"selectorId": "body_x_selFamily",
+													"key": "body_x_selFamily",
+													"showUrlLink": false,
+													"itemGridEnabled": false,
+													"postName": "|selFamily",
+													"selectorType": "autocompletion",
+													"selectorCode": "family",
+													"autocompleteDelay": 200,
+													"autocompleteMinLength": 0,
+													"dataTableName": "t_prj_project_family",
+													"isLocal": false,
+													"optGroup": {},
+													"dataGroupField": "optgroup_num",
+													"hasOptGroups": false,
+													"dataSource": [],
+													"selectedItems": [],
+													"shortEnd": 0,
+													"closeAfterSelection": false,
+													"filterContext": "null",
+													"shortBegin": 0,
+													"listColumn": "[]",
+													"filterTagMaxItems": 10,
+													"filterTagNotDisplayed": "<div class=\"ui label tag-value tooltip\"><i class=\"fa-ellipsis-h icon\" aria-hidden=\"true\"></i></div><div class=\"ui iv-filter-summary popup\"><span class=\"tag-summary\" data-id=\"@{id}\">@{tooltip}</span></div>",
+													"autoSave": false,
+													"beforeSave": [],
+													"onSaving": [],
+													"saved": [],
+													"required": false,
+													"filterTag": "<h3 class=\"tag-label\" data-id=\"@{id}\">Commodity : </h3><ul class=\"tag-summary\" data-id=\"@{id}\"><li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li></ul>",
+													"filterTagValue": "<li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li>",
+													"pageUrl": "/prj/project_browse",
+													"clientID": "body_x_selFamily",
+													"id": "selFamily",
+													"readOnly": false,
+													"readOnlyRendering": "disabledInput",
+													"controlID": "selFamily",
+													"associatedText": "Commodity",
+													"labelAlign": "top",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"cssClass": "selector-control",
+													"autoSaveUrl": "/prj/project_manage/{0}",
+													"autoSaveObjectId": "",
+													"controlType": "SelectorControl"
+												},
+												"id": "selFamily"
+											},
+											"2": {
+												"control": {
+													"isLegacy": false,
+													"url": "bas/filter_bar?module=prj&page=project_browse",
+													"triggerOf": [],
+													"rules": {},
+													"id": "prxAdvFilterBar",
+													"controlType": "BaseUserControl",
+													"children": [
+														{
+															"id": "body_x_prxAdvFilterBar_x",
+															"controlType": "BaseUserControl",
+															"children": []
+														}
+													]
+												},
+												"id": "prxAdvFilterBar"
+											}
+										}
+									},
+									"associatedTitle": "Filter",
+									"frameType": "everyBorderNoBackground",
+									"saveState": true,
+									"label": "Filter",
+									"renderType": "table",
+									"pageUrl": "/prj/project_browse",
+									"clientID": "body_x_filterProjectBrowse",
+									"id": "filterProjectBrowse",
+									"readOnlyRendering": "disabledInput",
+									"controlID": "filterProjectBrowse",
+									"associatedText": "Filter",
+									"labelAlign": "no",
+									"contextMenu": {
+										"opts": {
+											"theme": "v8"
+										},
+										"items": []
+									},
+									"hidden": false,
+									"triggerOf": [],
+									"rules": {},
+									"designRules": {},
+									"visible": true,
+									"cssClass": "filter-control iv-filter frame1",
+									"saveStateUrl": "/prj/project_browse",
+									"controlType": "FilterControl"
+								},
+								{
+									"crossPageSelectionEnabled": false,
+									"autoGenerateManageAttribute": true,
+									"autoGenerateCodeColumn": false,
+									"autoGenerateErrorAttribute": false,
+									"autoGenerateReorderColumn": false,
+									"readOnly": false,
+									"autoGenerateSelectorButton": false,
+									"autoGenerateDeleteAttribute": true,
+									"readOnlyRendering": "disabledInput",
+									"autoGenerateLabel": false,
+									"columns": [
+										{
+											"cssClass": "",
+											"navigateUrl": "/prj/project_manage/{project_id}",
+											"field": "__colManagegridProject",
+											"id": "__colManagegridProject",
+											"headerName": "Editing column",
+											"triggerOf": [],
+											"rules": {},
+											"hidden": false,
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"designRules": {},
+											"visible": true,
+											"controlType": "Column"
+										},
+										{
+											"cssClass": "",
+											"field": "__colDelgridProject",
+											"id": "__colDelgridProject",
+											"headerName": "Deleting column",
+											"triggerOf": [],
+											"rules": {},
+											"hidden": false,
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"designRules": {},
+											"visible": true,
+											"controlType": "Column"
+										},
+										{
+											"cssClass": "",
+											"field": "project_code_calculated",
+											"id": "project_code_calculated",
+											"headerName": "Code",
+											"triggerOf": [],
+											"rules": {},
+											"hidden": false,
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"designRules": {},
+											"visible": true,
+											"controlType": "Column"
+										},
+										{
+											"cssClass": "",
+											"field": "project_code",
+											"id": "project_code",
+											"headerName": "Code",
+											"triggerOf": [],
+											"rules": {},
+											"hidden": false,
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"designRules": {},
+											"visible": true,
+											"controlType": "Column"
+										},
+										{
+											"cssClass": "",
+											"field": "project_label",
+											"id": "project_label",
+											"headerName": "Program",
+											"triggerOf": [],
+											"rules": {},
+											"hidden": false,
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"designRules": {},
+											"visible": true,
+											"controlType": "Column"
+										},
+										{
+											"cssClass": "",
+											"field": "ptype_label",
+											"id": "ptype_label",
+											"headerName": "Types",
+											"triggerOf": [],
+											"rules": {},
+											"hidden": false,
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"designRules": {},
+											"visible": true,
+											"controlType": "Column"
+										},
+										{
+											"cssClass": "",
+											"field": "status_label",
+											"id": "status_label",
+											"headerName": "Status",
+											"triggerOf": [],
+											"rules": {},
+											"hidden": false,
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"designRules": {},
+											"visible": true,
+											"controlType": "Column"
+										},
+										{
+											"cssClass": "",
+											"field": "project_amount",
+											"id": "project_amount",
+											"headerName": "Amount",
+											"triggerOf": [],
+											"rules": {},
+											"hidden": false,
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"designRules": {},
+											"visible": true,
+											"controlType": "Column"
+										},
+										{
+											"cssClass": "",
+											"field": "project_amount_rev1",
+											"id": "project_amount_rev1",
+											"headerName": "Revised Amount 1",
+											"triggerOf": [],
+											"rules": {},
+											"hidden": false,
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"designRules": {},
+											"visible": true,
+											"controlType": "Column"
+										},
+										{
+											"cssClass": "",
+											"field": "project_amount_rev2",
+											"id": "project_amount_rev2",
+											"headerName": "Revised Amount 2",
+											"triggerOf": [],
+											"rules": {},
+											"hidden": false,
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"designRules": {},
+											"visible": true,
+											"controlType": "Column"
+										}
+									],
+									"filterControlID": "filterProjectBrowse",
+									"fixedColumnNumber": 0,
+									"manageUrl": "/prj/project_manage/{project_id}",
+									"newLineInsertedFirst": false,
+									"headerControls": [
+										{
+											"saveUrl": "prj/project_browse/?",
+											"uniqueID": "body:x:gridProject:create_project",
+											"enableSave": false,
+											"clientValidation": true,
+											"excludeRequiredField": false,
+											"navigateUrl": "/prj/project_manage",
+											"type": "submit",
+											"iconAlign": "left",
+											"menuItems": [],
+											"category": "secondary",
+											"invisible": false,
+											"pageUrl": "/prj/project_browse",
+											"clientID": "body_x_gridProject_create_project",
+											"id": "create_project",
+											"readOnly": false,
+											"readOnlyRendering": "disabledInput",
+											"controlID": "create_project",
+											"associatedText": "Create Program",
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"hidden": false,
+											"triggerOf": [],
+											"rules": {},
+											"designRules": {},
+											"visible": true,
+											"cssClass": "",
+											"controlType": "ButtonControl"
+										}
+									],
+									"cssClass": "",
+									"pageUrl": "/prj/project_browse",
+									"id": "gridProject",
+									"controlID": "gridProject",
+									"associatedText": "Programs",
+									"labelAlign": "top",
+									"contextMenu": {
+										"opts": {
+											"theme": "v8",
+											"after": "body"
+										},
+										"items": [
+											[
+												"Freeze grid header",
+												{
+													"data-grid": "body_x_gridProject_grd",
+													"clickable": false,
+													"fixed_header": true,
+													"section": "grid_settings",
+													"sectionTitle": "Grid settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" data-iv-fixed-header-trigger=\"body_x_gridProject_grd\" onclick=\"ivGrid.toggleFixedHeader(&#39;body_x_gridProject_grd&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon icon fa-toggle-off solid\"></i><span class=\"sr-only\">Freeze grid header</span></button>"
+											],
+											[
+												"<label for=\"body_x_gridProject_grd_txtPager22196\">Grid page size :</label><div class=\"ui small left labeled action input\"><input tabindex=\"0\" type=\"text\" id=\"body_x_gridProject_grd_txtPager22196\" size=\"3\" maxlength=\"3\" value=\"15\" /><button tabindex=\"0\" id=\"body_x_gridProject_grd_btnPager22196\" type=\"button\" class=\"ui small secondary icon button\" onclick=\"__ivCtrl['body_x_gridProject_grd'].GridPageSizeOnClick('body_x_gridProject_grd_txtPager22196', 150);\"><i class=\"fa-check icon\" aria-hidden=\"true\"></i>\r\n<span class=\"sr-only\">Update table</span></button>\r\n</div>\r\n",
+												{
+													"data-pager": true,
+													"onclick": "return false;",
+													"clickable": false,
+													"section": "grid_settings",
+													"sectionTitle": "Grid settings"
+												},
+												null
+											],
+											[
+												"Editing column",
+												{
+													"id": "__colManagegridProject",
+													"type": "column",
+													"state": false,
+													"draggable": false,
+													"dragDisabled": true,
+													"ondragstart": "__ivCtrl['body_x_gridProject_grd'].rollOverColumn('__colManagegridProject');return false;",
+													"ondragstop": "__ivCtrl['body_x_gridProject_grd'].moveColumn('__colManagegridProject', item, true);",
+													"clickable": false,
+													"section": "grid_columns",
+													"sectionTitle": "Grid column settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" onclick=\"__ivCtrl[&#39;body_x_gridProject_grd&#39;].HideColumnContext(event.target, &#39;__colManagegridProject&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon green icon fa-toggle-on solid\"></i><span class=\"sr-only\">Show / Hide column</span></button></div>"
+											],
+											[
+												"Deleting column",
+												{
+													"id": "__colDelgridProject",
+													"type": "column",
+													"state": false,
+													"draggable": false,
+													"dragDisabled": true,
+													"ondragstart": "__ivCtrl['body_x_gridProject_grd'].rollOverColumn('__colDelgridProject');return false;",
+													"ondragstop": "__ivCtrl['body_x_gridProject_grd'].moveColumn('__colDelgridProject', item, true);",
+													"clickable": false,
+													"section": "grid_columns",
+													"sectionTitle": "Grid column settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" onclick=\"__ivCtrl[&#39;body_x_gridProject_grd&#39;].HideColumnContext(event.target, &#39;__colDelgridProject&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon green icon fa-toggle-on solid\"></i><span class=\"sr-only\">Show / Hide column</span></button></div>"
+											],
+											[
+												"Code",
+												{
+													"id": "project_code_calculated",
+													"type": "column",
+													"state": false,
+													"draggable": true,
+													"dragDisabled": false,
+													"ondragstart": "__ivCtrl['body_x_gridProject_grd'].rollOverColumn('project_code_calculated');return false;",
+													"ondragstop": "__ivCtrl['body_x_gridProject_grd'].moveColumn('project_code_calculated', item, true);",
+													"clickable": false,
+													"section": "grid_columns",
+													"sectionTitle": "Grid column settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" onclick=\"__ivCtrl[&#39;body_x_gridProject_grd&#39;].HideColumnContext(event.target, &#39;project_code_calculated&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon green icon fa-toggle-on solid\"></i><span class=\"sr-only\">Show / Hide column</span></button></div>"
+											],
+											[
+												"Code",
+												{
+													"id": "project_code",
+													"type": "column",
+													"state": false,
+													"draggable": true,
+													"dragDisabled": false,
+													"ondragstart": "__ivCtrl['body_x_gridProject_grd'].rollOverColumn('project_code');return false;",
+													"ondragstop": "__ivCtrl['body_x_gridProject_grd'].moveColumn('project_code', item, true);",
+													"clickable": false,
+													"section": "grid_columns",
+													"sectionTitle": "Grid column settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" onclick=\"__ivCtrl[&#39;body_x_gridProject_grd&#39;].HideColumnContext(event.target, &#39;project_code&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon green icon fa-toggle-on solid\"></i><span class=\"sr-only\">Show / Hide column</span></button></div>"
+											],
+											[
+												"Program",
+												{
+													"id": "project_label",
+													"type": "column",
+													"state": false,
+													"draggable": true,
+													"dragDisabled": false,
+													"ondragstart": "__ivCtrl['body_x_gridProject_grd'].rollOverColumn('project_label');return false;",
+													"ondragstop": "__ivCtrl['body_x_gridProject_grd'].moveColumn('project_label', item, true);",
+													"clickable": false,
+													"section": "grid_columns",
+													"sectionTitle": "Grid column settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" onclick=\"__ivCtrl[&#39;body_x_gridProject_grd&#39;].HideColumnContext(event.target, &#39;project_label&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon green icon fa-toggle-on solid\"></i><span class=\"sr-only\">Show / Hide column</span></button></div>"
+											],
+											[
+												"Types",
+												{
+													"id": "ptype_label",
+													"type": "column",
+													"state": false,
+													"draggable": true,
+													"dragDisabled": false,
+													"ondragstart": "__ivCtrl['body_x_gridProject_grd'].rollOverColumn('ptype_label');return false;",
+													"ondragstop": "__ivCtrl['body_x_gridProject_grd'].moveColumn('ptype_label', item, true);",
+													"clickable": false,
+													"section": "grid_columns",
+													"sectionTitle": "Grid column settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" onclick=\"__ivCtrl[&#39;body_x_gridProject_grd&#39;].HideColumnContext(event.target, &#39;ptype_label&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon green icon fa-toggle-on solid\"></i><span class=\"sr-only\">Show / Hide column</span></button></div>"
+											],
+											[
+												"Status",
+												{
+													"id": "status_label",
+													"type": "column",
+													"state": false,
+													"draggable": true,
+													"dragDisabled": false,
+													"ondragstart": "__ivCtrl['body_x_gridProject_grd'].rollOverColumn('status_label');return false;",
+													"ondragstop": "__ivCtrl['body_x_gridProject_grd'].moveColumn('status_label', item, true);",
+													"clickable": false,
+													"section": "grid_columns",
+													"sectionTitle": "Grid column settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" onclick=\"__ivCtrl[&#39;body_x_gridProject_grd&#39;].HideColumnContext(event.target, &#39;status_label&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon green icon fa-toggle-on solid\"></i><span class=\"sr-only\">Show / Hide column</span></button></div>"
+											],
+											[
+												"Amount",
+												{
+													"id": "project_amount",
+													"type": "column",
+													"state": false,
+													"draggable": true,
+													"dragDisabled": false,
+													"ondragstart": "__ivCtrl['body_x_gridProject_grd'].rollOverColumn('project_amount');return false;",
+													"ondragstop": "__ivCtrl['body_x_gridProject_grd'].moveColumn('project_amount', item, true);",
+													"clickable": false,
+													"section": "grid_columns",
+													"sectionTitle": "Grid column settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" onclick=\"__ivCtrl[&#39;body_x_gridProject_grd&#39;].HideColumnContext(event.target, &#39;project_amount&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon green icon fa-toggle-on solid\"></i><span class=\"sr-only\">Show / Hide column</span></button></div>"
+											],
+											[
+												"Revised Amount 1",
+												{
+													"id": "project_amount_rev1",
+													"type": "column",
+													"state": false,
+													"draggable": true,
+													"dragDisabled": false,
+													"ondragstart": "__ivCtrl['body_x_gridProject_grd'].rollOverColumn('project_amount_rev1');return false;",
+													"ondragstop": "__ivCtrl['body_x_gridProject_grd'].moveColumn('project_amount_rev1', item, true);",
+													"clickable": false,
+													"section": "grid_columns",
+													"sectionTitle": "Grid column settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" onclick=\"__ivCtrl[&#39;body_x_gridProject_grd&#39;].HideColumnContext(event.target, &#39;project_amount_rev1&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon green icon fa-toggle-on solid\"></i><span class=\"sr-only\">Show / Hide column</span></button></div>"
+											],
+											[
+												"Revised Amount 2",
+												{
+													"id": "project_amount_rev2",
+													"type": "column",
+													"state": false,
+													"draggable": true,
+													"dragDisabled": false,
+													"ondragstart": "__ivCtrl['body_x_gridProject_grd'].rollOverColumn('project_amount_rev2');return false;",
+													"ondragstop": "__ivCtrl['body_x_gridProject_grd'].moveColumn('project_amount_rev2', item, true);",
+													"clickable": false,
+													"section": "grid_columns",
+													"sectionTitle": "Grid column settings"
+												},
+												"<div class=\"action-container\"><button type=\"button\" onclick=\"__ivCtrl[&#39;body_x_gridProject_grd&#39;].HideColumnContext(event.target, &#39;project_amount_rev2&#39;);\" class=\"ui button icon borderless btn-display-column\"><i aria-hidden=\"true\" class=\"icon green icon fa-toggle-on solid\"></i><span class=\"sr-only\">Show / Hide column</span></button></div>"
+											],
+											[
+												"Download table \"Programs\" in Excel format",
+												{
+													"icon": "fa-file-excel icon",
+													"href": "#",
+													"onclick": "__ivCtrl['body_x_gridProject_grd'].ExportTo('/buyer_demo_V8_178_D791333_branch/excel.aspx/en/prj/project_browse');",
+													"section": "grid_actions",
+													"sectionTitle": "Grid Actions"
+												},
+												null
+											],
+											[
+												"Reset to default parameters",
+												{
+													"icon": "fa-undo icon",
+													"onclick": "if (confirm('Reset to default parameters ?')){__ivCtrl['body_x_gridProject_grd'].resetUserStateToGlobalOrDefault();}else{return false;}",
+													"section": "grid_actions",
+													"sectionTitle": "Grid Actions"
+												},
+												null
+											],
+											[
+												"Apply as global configuration",
+												{
+													"icon": "fa-check icon",
+													"onclick": "if (confirm('Confirm modification of global configuration ?')){__ivCtrl['body_x_gridProject_grd'].saveGlobalState();}else{return false;}",
+													"section": "grid_actions",
+													"sectionTitle": "Grid Actions"
+												},
+												null
+											],
+											[
+												"Erase global grid parameters",
+												{
+													"icon": "fa-times icon",
+													"onclick": "if (confirm('Erase global grid parameters ?')){__ivCtrl['body_x_gridProject_grd'].eraseGlobalState();}else{return false;}",
+													"section": "grid_actions",
+													"sectionTitle": "Grid Actions"
+												},
+												null
+											]
+										],
+										"controlid": "gridMenu"
+									},
+									"hidden": false,
+									"triggerOf": [],
+									"rules": {},
+									"designRules": {},
+									"visible": true,
+									"controlType": "Grid"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"collapsable": true,
+			"preservePinnedState": false,
+			"preserveWidth": false,
+			"pageUrl": "/prj/project_browse",
+			"clientID": "leftPanel",
+			"id": "leftPanel",
+			"readOnly": false,
+			"readOnlyRendering": "disabledInput",
+			"controlID": "leftPanel",
+			"associatedText": "Left panel",
+			"labelAlign": "top",
+			"contextMenu": {
+				"opts": {
+					"theme": "v8"
+				},
+				"items": []
+			},
+			"hidden": false,
+			"triggerOf": [],
+			"rules": {},
+			"designRules": {},
+			"visible": true,
+			"cssClass": "",
+			"controlType": "PanelControl",
+			"children": [
+				{},
+				{}
+			]
+		},
+		{
+			"collapsable": true,
+			"preservePinnedState": false,
+			"preserveWidth": false,
+			"pageUrl": "/prj/project_browse",
+			"clientID": "rightPanel",
+			"id": "rightPanel",
+			"readOnly": false,
+			"readOnlyRendering": "disabledInput",
+			"controlID": "rightPanel",
+			"associatedText": "Right panel",
+			"labelAlign": "top",
+			"contextMenu": {
+				"opts": {
+					"theme": "v8"
+				},
+				"items": []
+			},
+			"hidden": false,
+			"triggerOf": [],
+			"rules": {},
+			"designRules": {},
+			"visible": true,
+			"cssClass": "",
+			"controlType": "PanelControl",
+			"children": [
+				{},
+				{}
+			]
+		},
+		{
+			"controlType": "HtmlGenericControl",
+			"id": "designCentralButton"
+		}
+	]
+}

@@ -1,0 +1,98 @@
+{
+	"controlType": "HtmlGenericControl",
+	"id": "page",	
+	"children": [{
+		"controlType": "HtmlGenericControl",
+		"id": "body",
+		"children": [				
+			{				
+				"controlType": "HtmlGenericControl",
+				"id": "phc",
+				"children": [
+					{
+						"controlType": "textboxcontrol",	
+						"triggerOf": ["manager"],					
+						"id": "emailbox",
+						"associatedText": "email",
+						"dataType": "email",
+						"rules": {
+							"associatedText": [
+								{
+									"property": "associatedText",
+									"guid": "75369d12-8e9a-ee11-ac5b-e4434b229b3z",
+									"value": "lol",
+									"conditions": [
+										{
+											"property": "currentValue",
+											"value": "10",
+											"clientId": "bonus",
+											"validated": false,
+											"id": "f59ba318-8e9a-ee11-ac5b-e4424b229b3d",
+											"operator": "equal",
+											"logicalOperator": "",
+											"type": "field"
+										}
+									]
+								},
+								{
+									"property": "associatedText",
+									"guid": "00000000-0000-0000-0000-000000000000"
+								}
+							]
+						}		
+					},							
+					{
+						"controlType": "textboxcontrol",
+						"triggerOf": ["emailbox"],											
+						"id": "bonus",
+						"associatedText": "bonus julien will give me",
+						"dataType": "integer",
+						"designMethods": {
+							"onChange": [
+								{
+
+								}
+							],
+							"dataBinding": [
+								{
+									"layer": "platform",
+									"method": "bar"
+								}
+							]
+						}
+					},
+					{
+						"controlType": "textboxcontrol",						
+						"id": "manager",
+						"associatedText": "who s the best manager",						
+						"rules": {
+							"currentValue": [
+								{
+									"property": "currentValue",
+									"guid": "75369d12-8e9a-ee11-ac5b-e4434b299b3d",
+									"value": "JLA",
+									"conditions": [
+										{
+											"property": "associatedText",
+											"value": "lol",
+											"clientId": "emailbox",
+											"validated": false,
+											"id": "f59ba318-8e9a-ee11-ac5b-e4634b229b3d",
+											"operator": "equal",
+											"logicalOperator": "",
+											"type": "field"
+										}
+									]
+								},
+								{
+									"property": "currentValue",
+									"guid": "00000000-0000-0000-0000-000000000000"
+								}
+							]
+						}		
+					}
+				]
+			}
+		]
+	}]
+  }

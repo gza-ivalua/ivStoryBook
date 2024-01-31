@@ -1,0 +1,21 @@
+{
+	"controlType": "HtmlGenericControl",
+	"id": "pageWrapper",
+	"pageTitle": "Programs",
+	"children": [{
+		"controlType": "HtmlGenericControl",
+		"id": "mainContentDiv",
+		"children": [				
+			{
+				"controlType": "HtmlGenericControl",
+				"id": "body",
+				"children": [				
+					{
+						"controlType": "TextboxControl",
+						"id": "myTextbox"
+					}
+				]
+			}
+		]
+	}]
+  }

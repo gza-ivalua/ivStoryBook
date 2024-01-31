@@ -1,0 +1,53 @@
+{
+	"page": {
+		"controlType": "HtmlGenericControl",
+		"id": "page",	
+		"children": [ "body"],
+		"controlState": {
+			"visited": false
+		}
+	},
+	"body": {
+		"id": "body",	
+		"controlType": "HtmlGenericControl",
+		"children": ["phc"]
+	},
+	"phc": {
+		"id": "phc",
+		"controlType": "HtmlGenericControl",	
+		"children": ["myFirstTextbox", "mySecondTextbox"]
+	},
+	"myFirstTextbox": {
+		"triggerOf": ["mySecondTextbox"],
+		"id": "myFirstTextbox",
+		"controlType": "textboxcontrol",								
+		"associatedText": "email",
+		"dataType": "email",
+		"controlState": {
+			"visited": false
+		}		
+	},
+	"mySecondTextbox": {
+		"id": "mySecondTextbox",
+		"controlType": "textboxcontrol",		
+		"associatedText": "bonus julien will give me (%)",
+		"minValue": 150,
+		"dataType": "integer",
+		"controlState": {
+			"visited": false
+		},
+		"designMethods": {
+			"onChange": [
+				{
+
+				}
+			],
+			"dataBinding": [
+				{
+					"layer": "platform",
+					"method": "bar"
+				}
+			]
+		}
+	}
+}

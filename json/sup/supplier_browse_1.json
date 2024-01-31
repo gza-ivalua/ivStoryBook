@@ -1,0 +1,1177 @@
+{
+	"controlType": "HtmlGenericControl",
+	"id": "pageWrapper",
+	"pageTitle": "Browse Suppliers",
+	"children": [
+		{
+			"controlType": "HtmlGenericControl",
+			"id": "mainContentDiv",
+			"children": [
+				{
+					"isLegacy": false,
+					"url": "sup/supplier_browse?module=sup&page=supplier_browse",
+					"triggerOf": [],
+					"rules": {},
+					"id": "body",
+					"controlType": "BaseUserControl",
+					"children": [
+						{
+							"id": "body_x",
+							"controlType": "BaseUserControl",
+							"children": [
+								{
+									"manageUrl": "/sup/supplier_manage/{sup_id}",
+									"filterControlID": "filterSup",
+									"headerControls": [
+										{
+											"readOnly": false,
+											"category": "none",
+											"cssClass": "",
+											"saveUrl": "sup/supplier_browse/?",
+											"uniqueID": "body:x:dcc_grid:btnGenerateCampaign",
+											"enableSave": false,
+											"clientValidation": true,
+											"excludeRequiredField": false,
+											"type": "submit",
+											"iconAlign": "left",
+											"menuItems": [
+												{
+													"readOnly": false,
+													"category": "none",
+													"cssClass": "context-button",
+													"saveUrl": "sup/supplier_browse/?",
+													"uniqueID": "body:x:dcc_grid:btnTemplatebdbf92c3-02da-e711-80fe-a4badb356aa5",
+													"enableSave": false,
+													"clientValidation": false,
+													"excludeRequiredField": false,
+													"type": "submit",
+													"iconAlign": "left",
+													"menuItems": [],
+													"invisible": true,
+													"pageUrl": "/sup/supplier_browse",
+													"clientID": "body_x_dcc_grid_btnTemplatebdbf92c3-02da-e711-80fe-a4badb356aa5",
+													"id": "btnTemplatebdbf92c3-02da-e711-80fe-a4badb356aa5",
+													"readOnlyRendering": "disabledInput",
+													"controlID": "btnTemplatebdbf92c3-02da-e711-80fe-a4badb356aa5",
+													"associatedText": "Brexit Impact Assessment",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"controlType": "ButtonControl"
+												},
+												{
+													"readOnly": false,
+													"category": "none",
+													"cssClass": "context-button",
+													"saveUrl": "sup/supplier_browse/?",
+													"uniqueID": "body:x:dcc_grid:btnTemplated743e666-0d98-e711-80ca-00155d940c03",
+													"enableSave": false,
+													"clientValidation": false,
+													"excludeRequiredField": false,
+													"type": "submit",
+													"iconAlign": "left",
+													"menuItems": [],
+													"invisible": true,
+													"pageUrl": "/sup/supplier_browse",
+													"clientID": "body_x_dcc_grid_btnTemplated743e666-0d98-e711-80ca-00155d940c03",
+													"id": "btnTemplated743e666-0d98-e711-80ca-00155d940c03",
+													"readOnlyRendering": "disabledInput",
+													"controlID": "btnTemplated743e666-0d98-e711-80ca-00155d940c03",
+													"associatedText": "Coronavirus Impact Assessment",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"controlType": "ButtonControl"
+												},
+												{
+													"readOnly": false,
+													"category": "none",
+													"cssClass": "context-button",
+													"saveUrl": "sup/supplier_browse/?",
+													"uniqueID": "body:x:dcc_grid:btnTemplatefcd88243-1c98-e711-80ca-00155d940c03",
+													"enableSave": false,
+													"clientValidation": false,
+													"excludeRequiredField": false,
+													"type": "submit",
+													"iconAlign": "left",
+													"menuItems": [],
+													"invisible": true,
+													"pageUrl": "/sup/supplier_browse",
+													"clientID": "body_x_dcc_grid_btnTemplatefcd88243-1c98-e711-80ca-00155d940c03",
+													"id": "btnTemplatefcd88243-1c98-e711-80ca-00155d940c03",
+													"readOnlyRendering": "disabledInput",
+													"controlID": "btnTemplatefcd88243-1c98-e711-80ca-00155d940c03",
+													"associatedText": "General Supplier Information",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"controlType": "ButtonControl"
+												},
+												{
+													"readOnly": false,
+													"category": "none",
+													"cssClass": "context-button",
+													"saveUrl": "sup/supplier_browse/?",
+													"uniqueID": "body:x:dcc_grid:btnTemplate27784fcd-cd82-e711-80c9-00155d940c03",
+													"enableSave": false,
+													"clientValidation": false,
+													"excludeRequiredField": false,
+													"type": "submit",
+													"iconAlign": "left",
+													"menuItems": [],
+													"invisible": true,
+													"pageUrl": "/sup/supplier_browse",
+													"clientID": "body_x_dcc_grid_btnTemplate27784fcd-cd82-e711-80c9-00155d940c03",
+													"id": "btnTemplate27784fcd-cd82-e711-80c9-00155d940c03",
+													"readOnlyRendering": "disabledInput",
+													"controlID": "btnTemplate27784fcd-cd82-e711-80c9-00155d940c03",
+													"associatedText": "Supplier Data Update",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"controlType": "ButtonControl"
+												},
+												{
+													"readOnly": false,
+													"category": "none",
+													"cssClass": "context-button",
+													"saveUrl": "sup/supplier_browse/?",
+													"uniqueID": "body:x:dcc_grid:btnTemplate799fb357-d198-e711-80ca-00155d940c03",
+													"enableSave": false,
+													"clientValidation": false,
+													"excludeRequiredField": false,
+													"type": "submit",
+													"iconAlign": "left",
+													"menuItems": [],
+													"invisible": true,
+													"pageUrl": "/sup/supplier_browse",
+													"clientID": "body_x_dcc_grid_btnTemplate799fb357-d198-e711-80ca-00155d940c03",
+													"id": "btnTemplate799fb357-d198-e711-80ca-00155d940c03",
+													"readOnlyRendering": "disabledInput",
+													"controlID": "btnTemplate799fb357-d198-e711-80ca-00155d940c03",
+													"associatedText": "Supplier Qualification",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"controlType": "ButtonControl"
+												},
+												{
+													"readOnly": false,
+													"category": "none",
+													"cssClass": "context-button",
+													"saveUrl": "sup/supplier_browse/?",
+													"uniqueID": "body:x:dcc_grid:btnTemplatefde1666b-dbab-eb11-9852-00155d941a06",
+													"enableSave": false,
+													"clientValidation": false,
+													"excludeRequiredField": false,
+													"type": "submit",
+													"iconAlign": "left",
+													"menuItems": [],
+													"invisible": true,
+													"pageUrl": "/sup/supplier_browse",
+													"clientID": "body_x_dcc_grid_btnTemplatefde1666b-dbab-eb11-9852-00155d941a06",
+													"id": "btnTemplatefde1666b-dbab-eb11-9852-00155d941a06",
+													"readOnlyRendering": "disabledInput",
+													"controlID": "btnTemplatefde1666b-dbab-eb11-9852-00155d941a06",
+													"associatedText": "Supplier Questionnaire Services ",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"controlType": "ButtonControl"
+												},
+												{
+													"readOnly": false,
+													"category": "none",
+													"cssClass": "context-button",
+													"saveUrl": "sup/supplier_browse/?",
+													"uniqueID": "body:x:dcc_grid:btnTemplate13776108-dbab-eb11-9852-00155d941a06",
+													"enableSave": false,
+													"clientValidation": false,
+													"excludeRequiredField": false,
+													"type": "submit",
+													"iconAlign": "left",
+													"menuItems": [],
+													"invisible": true,
+													"pageUrl": "/sup/supplier_browse",
+													"clientID": "body_x_dcc_grid_btnTemplate13776108-dbab-eb11-9852-00155d941a06",
+													"id": "btnTemplate13776108-dbab-eb11-9852-00155d941a06",
+													"readOnlyRendering": "disabledInput",
+													"controlID": "btnTemplate13776108-dbab-eb11-9852-00155d941a06",
+													"associatedText": "Supplier Questionnaire_IT",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"controlType": "ButtonControl"
+												}
+											],
+											"invisible": false,
+											"pageUrl": "/sup/supplier_browse",
+											"clientID": "body_x_dcc_grid_btnGenerateCampaign",
+											"id": "btnGenerateCampaign",
+											"readOnlyRendering": "disabledInput",
+											"controlID": "btnGenerateCampaign",
+											"associatedText": "Create RFI",
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"hidden": false,
+											"triggerOf": [
+												"body_x_dcc_grid_btnGenerateCampaign"
+											],
+											"rules": {
+												"Enabled": [
+													{
+														"property": "enabled",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": true,
+														"conditions": [
+															{
+																"property": "text",
+																"value": "0",
+																"validated": false,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															},
+															{
+																"property": "text",
+																"value": "0",
+																"validated": false,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															}
+														]
+													},
+													{
+														"property": "enabled",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": false
+													}
+												],
+												"ToolTip": [
+													{
+														"property": "toolTip",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": "No rows have been selected, the action cannot be carried out.",
+														"conditions": [
+															{
+																"property": "enabled",
+																"value": true,
+																"clientId": "body_x_dcc_grid_btnGenerateCampaign",
+																"validated": true,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															},
+															{
+																"property": "enabled",
+																"value": true,
+																"clientId": "body_x_dcc_grid_btnGenerateCampaign",
+																"validated": true,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															}
+														]
+													},
+													{
+														"property": "toolTip",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": ""
+													}
+												]
+											},
+											"designRules": {
+												"enabled": [
+													{
+														"property": "enabled",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": true,
+														"conditions": [
+															{
+																"property": "text",
+																"value": "0",
+																"validated": false,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															},
+															{
+																"property": "text",
+																"value": "0",
+																"validated": false,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															}
+														]
+													},
+													{
+														"property": "enabled",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": false
+													}
+												],
+												"toolTip": [
+													{
+														"property": "toolTip",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": "No rows have been selected, the action cannot be carried out.",
+														"conditions": [
+															{
+																"property": "enabled",
+																"value": true,
+																"clientId": "body_x_dcc_grid_btnGenerateCampaign",
+																"validated": true,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															},
+															{
+																"property": "enabled",
+																"value": true,
+																"clientId": "body_x_dcc_grid_btnGenerateCampaign",
+																"validated": true,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															}
+														]
+													},
+													{
+														"property": "toolTip",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": ""
+													}
+												]
+											},
+											"visible": true,
+											"controlType": "ButtonControl",
+											"children": []
+										},
+										{
+											"readOnly": false,
+											"category": "none",
+											"cssClass": "",
+											"saveUrl": "sup/supplier_browse/?",
+											"uniqueID": "body:x:dcc_grid:btnMerge",
+											"enableSave": false,
+											"clientValidation": false,
+											"excludeRequiredField": false,
+											"type": "button",
+											"iconAlign": "left",
+											"menuItems": [],
+											"invisible": false,
+											"pageUrl": "/sup/supplier_browse",
+											"clientID": "body_x_dcc_grid_btnMerge",
+											"id": "btnMerge",
+											"readOnlyRendering": "disabledInput",
+											"controlID": "btnMerge",
+											"associatedText": "Merge Suppliers",
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"hidden": false,
+											"triggerOf": [
+												"body_x_dcc_grid_btnMerge"
+											],
+											"rules": {
+												"Enabled": [
+													{
+														"property": "enabled",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": true,
+														"conditions": [
+															{
+																"property": "text",
+																"value": "0",
+																"validated": false,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															},
+															{
+																"property": "text",
+																"value": "0",
+																"validated": false,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															}
+														]
+													},
+													{
+														"property": "enabled",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": false
+													}
+												],
+												"ToolTip": [
+													{
+														"property": "toolTip",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": "No rows have been selected, the action cannot be carried out.",
+														"conditions": [
+															{
+																"property": "enabled",
+																"value": true,
+																"clientId": "body_x_dcc_grid_btnMerge",
+																"validated": true,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															},
+															{
+																"property": "enabled",
+																"value": true,
+																"clientId": "body_x_dcc_grid_btnMerge",
+																"validated": true,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															}
+														]
+													},
+													{
+														"property": "toolTip",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": ""
+													}
+												]
+											},
+											"designRules": {
+												"enabled": [
+													{
+														"property": "enabled",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": true,
+														"conditions": [
+															{
+																"property": "text",
+																"value": "0",
+																"validated": false,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															},
+															{
+																"property": "text",
+																"value": "0",
+																"validated": false,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															}
+														]
+													},
+													{
+														"property": "enabled",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": false
+													}
+												],
+												"toolTip": [
+													{
+														"property": "toolTip",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": "No rows have been selected, the action cannot be carried out.",
+														"conditions": [
+															{
+																"property": "enabled",
+																"value": true,
+																"clientId": "body_x_dcc_grid_btnMerge",
+																"validated": true,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															},
+															{
+																"property": "enabled",
+																"value": true,
+																"clientId": "body_x_dcc_grid_btnMerge",
+																"validated": true,
+																"id": "00000000-0000-0000-0000-000000000000",
+																"operator": "notEqual",
+																"logicalOperator": "",
+																"type": "field"
+															}
+														]
+													},
+													{
+														"property": "toolTip",
+														"guid": "00000000-0000-0000-0000-000000000000",
+														"value": ""
+													}
+												]
+											},
+											"visible": true,
+											"controlType": "ButtonControl"
+										},
+										{
+											"readOnly": false,
+											"category": "secondary",
+											"navigateUrl": "/sup/supplier_manage",
+											"cssClass": "",
+											"saveUrl": "sup/supplier_browse/?",
+											"uniqueID": "body:x:dcc_grid:add_new_supplier",
+											"enableSave": false,
+											"clientValidation": true,
+											"excludeRequiredField": false,
+											"type": "submit",
+											"iconAlign": "left",
+											"menuItems": [],
+											"invisible": false,
+											"pageUrl": "/sup/supplier_browse",
+											"clientID": "body_x_dcc_grid_add_new_supplier",
+											"id": "add_new_supplier",
+											"readOnlyRendering": "disabledInput",
+											"controlID": "add_new_supplier",
+											"associatedText": "Create Supplier",
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"hidden": false,
+											"triggerOf": [],
+											"rules": {},
+											"designRules": {},
+											"visible": true,
+											"controlType": "ButtonControl"
+										},
+										{
+											"dialogTrigger": "click",
+											"pageUrl": "/sup/supplier_browse",
+											"clientID": "body_x_dcc_grid_DialogMerge",
+											"id": "DialogMerge",
+											"readOnly": false,
+											"readOnlyRendering": "disabledInput",
+											"controlID": "DialogMerge",
+											"labelAlign": "top",
+											"contextMenu": {
+												"opts": {
+													"theme": "v8"
+												},
+												"items": []
+											},
+											"hidden": false,
+											"triggerOf": [],
+											"rules": {},
+											"designRules": {},
+											"visible": true,
+											"cssClass": "",
+											"controlType": "DialogControl",
+											"children": [
+												{
+													"inline": false,
+													"inColumn": false,
+													"dicControlToRender": {
+														"0": {
+															"0": {
+																"control": {
+																	"direction": "downward",
+																	"type": "single",
+																	"queryString": "curl=sup/supplier_browse&cid=selSupMerge&cot=supplier&cdesignctx=&tableName=t_sup_supplier&objectType=supplier",
+																	"ctxVarText": "selectorCode=supplier",
+																	"text": "merge in",
+																	"repeatColumns": 1,
+																	"autoPostBack": false,
+																	"enableConfirmationBeforeClear": false,
+																	"control": {
+																		"enableEllipsisButton": true,
+																		"moduleName": "sup",
+																		"pageName": "supplier_browse",
+																		"url": "/buyer_demo_V8_178_D791333_branch/ajax.aspx/en/sup/supplier_browse",
+																		"popUpUrl": "/buyer_demo_V8_178_D791333_branch/modal.aspx/en/sup/supplier_browse",
+																		"menuClientId": "body_x_dcc_grid_selSupMerge_MenuItem"
+																	},
+																	"tableName": "t_sup_supplier",
+																	"autoSelect": false,
+																	"dataTextField": "label",
+																	"defaultFetchOperation": true,
+																	"dataValueField": "pkval",
+																	"filterCtx": {},
+																	"allowExcludedValues": false,
+																	"selectorId": "body_x_dcc_grid_selSupMerge",
+																	"key": "body_x_dcc_grid_selSupMerge",
+																	"showUrlLink": false,
+																	"itemGridEnabled": false,
+																	"postName": "|selSupMerge",
+																	"selectorType": "autocompletion",
+																	"selectorCode": "supplier",
+																	"autocompleteDelay": 200,
+																	"autocompleteMinLength": 0,
+																	"dataTableName": "t_sup_supplier",
+																	"isLocal": false,
+																	"optGroup": {},
+																	"dataGroupField": "optgroup_num",
+																	"hasOptGroups": false,
+																	"dataSource": [],
+																	"selectedItems": [],
+																	"shortEnd": 0,
+																	"closeAfterSelection": false,
+																	"filterContext": "null",
+																	"shortBegin": 0,
+																	"listColumn": "[]",
+																	"filterTagMaxItems": 10,
+																	"filterTagNotDisplayed": "<div class=\"ui label tag-value tooltip\"><i class=\"fa-ellipsis-h icon\" aria-hidden=\"true\"></i></div><div class=\"ui iv-filter-summary popup\"><span class=\"tag-summary\" data-id=\"@{id}\">@{tooltip}</span></div>",
+																	"dataFieldName": "sup_id",
+																	"autoSave": false,
+																	"beforeSave": [],
+																	"onSaving": [],
+																	"saved": [],
+																	"required": false,
+																	"filterTag": "<h3 class=\"tag-label\" data-id=\"@{id}\">Select Target Supplier : </h3><ul class=\"tag-summary\" data-id=\"@{id}\"><li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li></ul>",
+																	"filterTagValue": "<li class=\"ui label tag-value\" data-value=\"@{value}\"><span class=\"tag-text\">@{text}</span><button type=\"button\" class=\"ui borderless icon delete-filter button\" tabindex=\"0\"><i aria-hidden=\"true\" class=\"fa-times icon\"></i><span class=\"sr-only\">Delete @{text}</span></button></li>",
+																	"pageUrl": "/sup/supplier_browse",
+																	"clientID": "body_x_dcc_grid_selSupMerge",
+																	"id": "selSupMerge",
+																	"readOnly": false,
+																	"readOnlyRendering": "disabledInput",
+																	"controlID": "selSupMerge",
+																	"associatedText": "Select Target Supplier",
+																	"labelAlign": "top",
+																	"contextMenu": {
+																		"opts": {
+																			"theme": "v8"
+																		},
+																		"items": []
+																	},
+																	"hidden": false,
+																	"triggerOf": [],
+																	"rules": {},
+																	"designRules": {},
+																	"visible": true,
+																	"cssClass": "selector-control",
+																	"autoSaveUrl": "/sup/supplier_manage/{0}",
+																	"autoSaveObjectId": "",
+																	"controlType": "SelectorControl"
+																},
+																"id": "selSupMerge"
+															}
+														}
+													},
+													"frameType": "borderless",
+													"saveState": true,
+													"renderType": "table",
+													"pageUrl": "/sup/supplier_browse",
+													"clientID": "body_x_dcc_grid_DialogContentMerge",
+													"id": "DialogContentMerge",
+													"readOnlyRendering": "disabledInput",
+													"controlID": "DialogContentMerge",
+													"labelAlign": "top",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"cssClass": "",
+													"saveStateUrl": "/sup/supplier_browse",
+													"controlType": "DialogContentControl"
+												},
+												{
+													"inline": false,
+													"inColumn": false,
+													"dicControlToRender": {
+														"0": {
+															"0": {
+																"control": {
+																	"readOnly": false,
+																	"category": "primary",
+																	"cssClass": "",
+																	"saveUrl": "sup/supplier_browse/?",
+																	"uniqueID": "body:x:dcc_grid:btnMergeSupplier",
+																	"enableSave": false,
+																	"clientValidation": true,
+																	"excludeRequiredField": false,
+																	"type": "submit",
+																	"iconAlign": "left",
+																	"menuItems": [],
+																	"invisible": false,
+																	"pageUrl": "/sup/supplier_browse",
+																	"clientID": "body_x_dcc_grid_btnMergeSupplier",
+																	"id": "btnMergeSupplier",
+																	"readOnlyRendering": "disabledInput",
+																	"controlID": "btnMergeSupplier",
+																	"associatedText": "Merge Suppliers",
+																	"contextMenu": {
+																		"opts": {
+																			"theme": "v8"
+																		},
+																		"items": []
+																	},
+																	"hidden": false,
+																	"triggerOf": [
+																		"body_x_dcc_grid_btnMergeSupplier"
+																	],
+																	"rules": {
+																		"Enabled": [
+																			{
+																				"property": "enabled",
+																				"guid": "00000000-0000-0000-0000-000000000000",
+																				"value": true,
+																				"conditions": [
+																					{
+																						"property": "text",
+																						"value": "0",
+																						"validated": false,
+																						"id": "00000000-0000-0000-0000-000000000000",
+																						"operator": "notEqual",
+																						"logicalOperator": "",
+																						"type": "field"
+																					}
+																				]
+																			},
+																			{
+																				"property": "enabled",
+																				"guid": "00000000-0000-0000-0000-000000000000",
+																				"value": false
+																			}
+																		],
+																		"ToolTip": [
+																			{
+																				"property": "toolTip",
+																				"guid": "00000000-0000-0000-0000-000000000000",
+																				"value": "You must select the destination supplier of the merge.",
+																				"conditions": [
+																					{
+																						"property": "enabled",
+																						"value": true,
+																						"clientId": "body_x_dcc_grid_btnMergeSupplier",
+																						"validated": true,
+																						"id": "00000000-0000-0000-0000-000000000000",
+																						"operator": "notEqual",
+																						"logicalOperator": "",
+																						"type": "field"
+																					}
+																				]
+																			},
+																			{
+																				"property": "toolTip",
+																				"guid": "00000000-0000-0000-0000-000000000000",
+																				"value": ""
+																			}
+																		]
+																	},
+																	"designRules": {
+																		"enabled": [
+																			{
+																				"property": "enabled",
+																				"guid": "00000000-0000-0000-0000-000000000000",
+																				"value": true,
+																				"conditions": [
+																					{
+																						"property": "text",
+																						"value": "0",
+																						"validated": false,
+																						"id": "00000000-0000-0000-0000-000000000000",
+																						"operator": "notEqual",
+																						"logicalOperator": "",
+																						"type": "field"
+																					}
+																				]
+																			},
+																			{
+																				"property": "enabled",
+																				"guid": "00000000-0000-0000-0000-000000000000",
+																				"value": false
+																			}
+																		],
+																		"toolTip": [
+																			{
+																				"property": "toolTip",
+																				"guid": "00000000-0000-0000-0000-000000000000",
+																				"value": "You must select the destination supplier of the merge.",
+																				"conditions": [
+																					{
+																						"property": "enabled",
+																						"value": true,
+																						"clientId": "body_x_dcc_grid_btnMergeSupplier",
+																						"validated": true,
+																						"id": "00000000-0000-0000-0000-000000000000",
+																						"operator": "notEqual",
+																						"logicalOperator": "",
+																						"type": "field"
+																					}
+																				]
+																			},
+																			{
+																				"property": "toolTip",
+																				"guid": "00000000-0000-0000-0000-000000000000",
+																				"value": ""
+																			}
+																		]
+																	},
+																	"visible": true,
+																	"controlType": "ButtonControl"
+																},
+																"id": "btnMergeSupplier"
+															}
+														}
+													},
+													"frameType": "borderless",
+													"saveState": true,
+													"renderType": "table",
+													"pageUrl": "/sup/supplier_browse",
+													"clientID": "body_x_dcc_grid_DialogActionMerge",
+													"id": "DialogActionMerge",
+													"readOnlyRendering": "disabledInput",
+													"controlID": "DialogActionMerge",
+													"labelAlign": "top",
+													"contextMenu": {
+														"opts": {
+															"theme": "v8"
+														},
+														"items": []
+													},
+													"hidden": false,
+													"triggerOf": [],
+													"rules": {},
+													"designRules": {},
+													"visible": true,
+													"cssClass": "",
+													"saveStateUrl": "/sup/supplier_browse",
+													"controlType": "DialogActionControl"
+												}
+											]
+										}
+									],
+									"autoGenerateDeleteAttribute": true,
+									"autoGenerateManageAttribute": true,
+									"autoGenerateErrorAttribute": true,
+									"columns": [
+										{
+											"visible": true,
+											"readOnly": true,
+											"field": "colSupBook",
+											"sortable": true,
+											"headerName": "Bookmark",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "action-column",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"navigateUrl": "/sup/supplier_manage/{sup_id}",
+											"readOnly": true,
+											"field": "revised_id",
+											"sortable": true,
+											"headerName": "Code",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "action-column",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"navigateUrl": "/sup/supplier_manage/{sup_id}",
+											"readOnly": true,
+											"field": "colSupname",
+											"sortable": true,
+											"headerName": "Supplier",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "action-column",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"readOnly": true,
+											"field": "sup_website",
+											"sortable": true,
+											"headerName": "Web site",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"readOnly": true,
+											"field": "status",
+											"sortable": true,
+											"headerName": "Status",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"description": "The status displayed is the highest of the supplier’s qualifications \nthat match the selected Organization and Commodity filters. For instance, if a \nsupplier has an Approved status on one of their commodities and a Forbidden\nstatus on another, the displayed status in this column will be Approved.\n\nTo display the list of qualifications in a tooltip, hover your mouse cursor over the status.",
+											"readOnly": true,
+											"field": "colPanelStatus",
+											"sortable": false,
+											"headerName": "Qualification",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"description": "A checkmark indicates all required documents have been provided. An \"X\" indicates missing documents. Click on the icon to navigate to the details.",
+											"readOnly": true,
+											"field": "colStatus",
+											"sortable": false,
+											"headerName": "Document Status",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"readOnly": true,
+											"field": "colsubtierNetwork",
+											"sortable": false,
+											"headerName": "Network",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"readOnly": true,
+											"field": "colExactPanel",
+											"sortable": true,
+											"headerName": "Panel",
+											"hide": false,
+											"hidden": true,
+											"designRules": {},
+											"cssClass": "",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"navigateUrl": "body_x_tabcselectedID=rsk_monitoring",
+											"readOnly": true,
+											"field": "colSupplierScorecard",
+											"sortable": false,
+											"headerName": "Risk Level",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "action-column",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"readOnly": true,
+											"field": "colSupPerformance",
+											"sortable": false,
+											"headerName": "Performance Level",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "",
+											"controlType": "DataCollectionAttribute"
+										},
+										{
+											"visible": true,
+											"readOnly": true,
+											"field": "colReviewScore",
+											"sortable": false,
+											"headerName": "Reviews",
+											"hide": false,
+											"hidden": false,
+											"designRules": {},
+											"cssClass": "",
+											"controlType": "DataCollectionAttribute"
+										}
+									],
+									"moduleName": "sup",
+									"pageName": "supplier_browse",
+									"pathInfo": [],
+									"dataKeyNames": [
+										"sup_id"
+									],
+									"pageSize": 15,
+									"pageUrl": "/sup/supplier_browse",
+									"clientID": "body_x_dcc_grid",
+									"id": "dcc_grid",
+									"readOnly": false,
+									"readOnlyRendering": "disabledInput",
+									"controlID": "dcc_grid",
+									"labelAlign": "top",
+									"contextMenu": {
+										"opts": {
+											"theme": "v8"
+										},
+										"items": []
+									},
+									"hidden": false,
+									"triggerOf": [],
+									"rules": {},
+									"designRules": {},
+									"visible": true,
+									"cssClass": "",
+									"controlType": "DataCollectionControl"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"collapsable": true,
+			"preservePinnedState": false,
+			"preserveWidth": false,
+			"pageUrl": "/sup/supplier_browse",
+			"clientID": "leftPanel",
+			"id": "leftPanel",
+			"readOnly": false,
+			"readOnlyRendering": "disabledInput",
+			"controlID": "leftPanel",
+			"associatedText": "Left panel",
+			"labelAlign": "top",
+			"contextMenu": {
+				"opts": {
+					"theme": "v8"
+				},
+				"items": []
+			},
+			"hidden": false,
+			"triggerOf": [],
+			"rules": {},
+			"designRules": {},
+			"visible": true,
+			"cssClass": "filter",
+			"controlType": "PanelControl",
+			"children": [
+				{},
+				{}
+			]
+		},
+		{
+			"collapsable": true,
+			"preservePinnedState": false,
+			"preserveWidth": false,
+			"pageUrl": "/sup/supplier_browse",
+			"clientID": "rightPanel",
+			"id": "rightPanel",
+			"readOnly": false,
+			"readOnlyRendering": "disabledInput",
+			"controlID": "rightPanel",
+			"associatedText": "Right panel",
+			"labelAlign": "top",
+			"contextMenu": {
+				"opts": {
+					"theme": "v8"
+				},
+				"items": []
+			},
+			"hidden": false,
+			"triggerOf": [],
+			"rules": {},
+			"designRules": {},
+			"visible": true,
+			"cssClass": "",
+			"controlType": "PanelControl",
+			"children": [
+				{},
+				{}
+			]
+		},
+		{
+			"controlType": "HtmlGenericControl",
+			"id": "designCentralButton"
+		}
+	]
+}
